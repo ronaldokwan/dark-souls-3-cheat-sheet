@@ -63,8 +63,11 @@
       {
        "id": "playthrough_17_4",
        "cls": "f_gest",
-       "html": "Head back to the fountain and take the path straight ahead. Climb the cliff and rest at the Cemetery of Ash bonfire to receive the Rest gesture",
-       "item": "enkindle"
+       "item": [
+        "enkindle",
+        "rest-gesture"
+       ],
+       "html": "Head back to the fountain and take the path straight ahead. Climb the cliff and rest at the Cemetery of Ash bonfire to receive the Rest gesture"
       },
       {
        "id": "playthrough_17_5",
@@ -159,6 +162,7 @@
       {
        "id": "playthrough_1_3",
        "cls": "f_gest f_miss",
+       "item": "collapse-gesture",
        "html": "Talk to <a href=\"https://darksouls3.wiki.fextralife.com/Hawkwood\">Hawkwood</a> to receive the Collapse gesture"
       },
       {
@@ -508,11 +512,13 @@
       {
        "id": "playthrough_3_3",
        "cls": "f_gest f_npc f_miss",
+       "item": "beckon",
        "html": "Find <a href=\"https://darksouls3.wiki.fextralife.com/Yoel+of+Londor\">Yoel of Londor</a> below the Foot of the High Wall bonfire amongst several other Pilgrims. Talk to him and agree to his request and he moves to Firelink Shrine. Head back to Firelink Shrine and talk to Yoel to receive the Beckon gesture. Accept Yoel's offer to Draw Out True Strength which gains you a free level and a <a href=\"https://darksouls3.wiki.fextralife.com/Dark+Sigil\">Dark Sigil</a>. From now on, for each time you die, you gain 1 Hollowing per Dark Sigil. Yoel offers 4 more free levels at 2, 6, 12, and 15 Hollowing, so getting all 5 Dark Sigils should not take long. If you do not get all 5 Dark Sigils before reaching the Catacombs of Carthus, Yoel dies which voids the Usurpation of Fire Ending"
       },
       {
        "id": "playthrough_3_4",
        "cls": "f_gest f_npc f_tome f_miss",
+       "item": "dignified-bow-a",
        "html": "After you get all 5 Dark Sigils and refresh the world, Yoel dies with <a href=\"https://darksouls3.wiki.fextralife.com/Yuria+of+Londor\">Yuria of Londor</a> watching over his newfound corpse. Talk to her to receive the Dignified Bow gesture and buy the <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome\">Londor Braille Divine Tome</a>"
       },
       {
@@ -643,7 +649,10 @@
       {
        "id": "playthrough_3_19",
        "cls": "f_gest f_weap f_npc",
-       "item": "pyromancy-flame",
+       "item": [
+        "pyromancy-flame",
+        "welcome"
+       ],
        "html": "Walk to the top of the house and find a cage that houses <a href=\"https://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a>. Talk to him, and he moves to Firelink Shrine. At the Shrine, talk to him multiple times to receive your <a href=\"https://darksouls3.wiki.fextralife.com/Pyromancy+Flame\">Pyromancy Flame</a> (unless you are already a pyromancer) and the Welcome gesture"
       },
       {
@@ -735,6 +744,10 @@
       {
        "id": "playthrough_3_63",
        "cls": "f_misc f_gest f_npc f_miss",
+       "item": [
+        "toast",
+        "sleep"
+       ],
        "html": "Speak to Siegward three times to receive a <a href=\"https://darksouls3.wiki.fextralife.com/Siegbrau\">Siegbräu</a>, the Toast gesture, and the Sleep gesture."
       },
       {
@@ -752,6 +765,7 @@
       {
        "id": "playthrough_3_29",
        "cls": "f_gest f_misc f_npc",
+       "item": "applause",
        "html": "A <a href=\"https://darksouls3.wiki.fextralife.com/Pale+Tongue\">Pale Tongue</a> can be found on a nearby hanging corpse. Obtaining the tongue here or from invading successfully leads to Leonhard returning to Firelink Shrine. He then gives you the <a href=\"https://darksouls3.wiki.fextralife.com/Lift+Chamber+Key\">Lift Chamber Key</a> that opens the door below the Tower on the Wall bonfire of High Wall of Lothric. Kill the Darkwraith imprisoned there to get a <a href=\"https://darksouls3.wiki.fextralife.com/Red+Eye+Orb\">Red Eye Orb</a>. Return to Firelink Shrine and talk to Leonhard to receive the Applause gesture"
       },
       {
@@ -848,6 +862,7 @@
       {
        "id": "playthrough_3_49",
        "cls": "f_gest f_npc",
+       "item": "prayer-gesture",
        "html": "Climb up and talk to <a href=\"https://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> to receive the Prayer gesture. Touch her and accept her services. She then moves to the Firelink Shrine. After recruiting Irina, make sure to go outside and speak to Eygon. At the shrine, you can give Irina the <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome\">Londor Braille Divine Tome</a>, but doing so and buying any of its spells leads to her Dark ending. Otherwise, hang onto it until you find Karla later in the game"
       },
       {
@@ -1018,6 +1033,10 @@
       {
        "id": "playthrough_4_25",
        "cls": "f_npc f_arm f_weap f_miss",
+       "item": [
+        "heysel-pick-a",
+        "xanthous-crown-a"
+       ],
        "html": "If you are embered, dark spirit <a href=\"https://darksouls3.wiki.fextralife.com/Yellowfinger+Heysel\">Yellowfinger Heysel</a> invades around where the two giant crabs are. Kill her for <a href=\"https://darksouls3.wiki.fextralife.com/Heysel+Pick\">Heysel Pick</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Xanthous+Crown\">Xanthous Crown</a>"
       },
       {
@@ -1107,7 +1126,8 @@
        "cls": "f_gest f_npc f_ring f_miss",
        "item": [
         "young-dragon-ring-a",
-        "slumbering-dragoncrest-ring-a"
+        "slumbering-dragoncrest-ring-a",
+        "silent-ally-a"
        ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Orbeck+of+Vinheim\">Orbeck of Vinheim</a> grants you different rewards based on certain criteria. If you are not a sorcerer, the <a href=\"https://darksouls3.wiki.fextralife.com/Young+Dragon+Ring\">Young Dragon Ring</a> is given to you after buying three of his spells and giving him at least one scroll. You will be rewarded with the Silent Ally gesture and the <a href=\"https://darksouls3.wiki.fextralife.com/Slumbering+Dragoncrest+Ring\">Slumbering Dragoncrest Ring</a> after buying Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook."
       },
@@ -1406,6 +1426,7 @@
       {
        "id": "playthrough_5_43",
        "cls": "f_gest f_misc f_npc f_miss",
+       "item": "prostration-b",
        "html": "Zig-zag your way across the rafters towards the other end, sticking primarily to the right. Eliminate the knight with the crossbow and drop down near where he was standing to a platform with a couple of candelabras. Drop again and you'll find yourself back with Patches. He will be waiting here and pretend to not be responsible for what just happened. Tell him \"You know who I am\" to receive the Prostration gesture. You can speak with him again for a <a href=\"https://darksouls3.wiki.fextralife.com/Rusted+Coin\">Rusted Coin</a>. You can then buy <a href=\"https://darksouls3.wiki.fextralife.com/Catarina+Set\">Siegward's Armor Set</a> from him. (Note: Purchasing this armor means Patches will not be a rescue option for Greirat later in Irithyll of the Boreal Valley)"
       },
       {
@@ -1448,6 +1469,10 @@
       {
        "id": "playthrough_5_50",
        "cls": "f_gest f_misc f_npc f_miss",
+       "item": [
+        "patches-squat-a",
+        "prostration-a"
+       ],
        "html": "Refresh Firelink Shrine and head to the upper right to find Patches now located there. He'll ask for forgiveness; refuse to receive the Prostration gesture and a <a href=\"https://darksouls3.wiki.fextralife.com/Rusted+Gold+Coin\">Rusted Gold Coin</a>. You can then buy Siegward's Armor Set from him. Leaving Firelink Shrine and returning will allow Patches to be in his squatting position. Interact with him to receive the Patches Squat gesture"
       },
       {
@@ -1458,6 +1483,7 @@
       {
        "id": "playthrough_5_52",
        "cls": "f_gest f_npc f_miss",
+       "item": "rejoice",
        "html": "Return to the well Siegward is in and throw his armor down to him to receive the Rejoice gesture"
       },
       {
@@ -1650,12 +1676,16 @@
       {
        "id": "playthrough_6_23",
        "cls": "f_cov f_gest",
-       "item": "watchdogs-of-farron",
+       "item": [
+        "watchdogs-of-farron",
+        "legion-etiquette"
+       ],
        "html": "Enter the room to find the Old Wolf of Farron and his bonfire. Interact with the wolf to receive the Legion Etiquette gesture and join the <a href=\"https://darksouls3.wiki.fextralife.com/Watchdogs+of+Farron\">Watchdogs of Farron</a> covenant"
       },
       {
        "id": "playthrough_6_24",
        "cls": "f_gest f_npc f_miss",
+       "item": "darkmoon-loyalty",
        "html": "Return to Firelink Shrine and give the Dreamchaser's Ashes to the Shrine Handmaid. Reload the area and Sirris will once again be there. Talk to her to receive the Darkmoon Loyalty gesture"
       },
       {
@@ -1666,7 +1696,6 @@
       {
        "id": "playthrough_6_26",
        "cls": "f_misc",
-       "item": "soul-of-a-stray-demon",
        "html": "Turn right and on the top you can fight a <a href=\"https://darksouls3.wiki.fextralife.com/Stray+Demon\">Stray Demon</a> to obtain <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+a+Stray+Demon\">Soul of a Stray Demon</a>"
       },
       {
@@ -1746,6 +1775,10 @@
       {
        "id": "playthrough_6_57",
        "cls": "f_npc f_miss",
+       "item": [
+        "heysel-pick-b",
+        "xanthous-crown-b"
+       ],
        "html": "Head up the steps, fight the Ghru Leaper (if you sprint up, you should be able to backstab him), and go down on the other side. If not triggered previously, <a href=\"https://darksouls3.wiki.fextralife.com/Yellowfinger+Heysel\">Yellowfinger Heysel</a> will invade you here, provided you are embered. If this is your first time defeating her, you'll gain <a href=\"https://darksouls3.wiki.fextralife.com/Heysel+Pick\">Heysel Pick</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Xanthous+Crown\">Xanthous Crown</a>"
       },
       {
@@ -1859,6 +1892,7 @@
       {
        "id": "playthrough_6_76",
        "cls": "f_gest f_npc f_tome f_miss",
+       "item": "dignified-bow-b",
        "html": "If you want to be able to access <a href=\"https://darksouls3.wiki.fextralife.com/Yuria+of+Londor\">Yuria of Londor</a> and the Usurpation of Fire ending, make sure that, before proceeding to fight the Abyss Watchers, you have Drawn Out True Strength 5 times with Yoel and then reload Firelink Shrine so that Yoel dies and Yuria appears. You can talk to her to receive the Dignified Bow gesture and buy the <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome\">Londor Braille Divine Tome</a>"
       },
       {
@@ -1871,7 +1905,8 @@
        "cls": "f_gest f_npc f_ring f_miss",
        "item": [
         "young-dragon-ring-b",
-        "slumbering-dragoncrest-ring-b"
+        "slumbering-dragoncrest-ring-b",
+        "silent-ally-b"
        ],
        "html": "Buy Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook from Orbeck. Then talk to him multiple times to obtain the <a href=\"https://darksouls3.wiki.fextralife.com/Young+Dragon+Ring\">Young Dragon Ring</a>, the Silent Ally gesture, and the <a href=\"https://darksouls3.wiki.fextralife.com/Slumbering+Dragoncrest+Ring\">Slumbering Dragoncrest Ring</a>"
       },
@@ -1893,11 +1928,13 @@
       {
        "id": "playthrough_6_68",
        "cls": "f_boss f_gest f_npc f_miss",
+       "item": "proper-bow",
        "html": "You can summon <a href=\"https://darksouls3.wiki.fextralife.com/Yellowfinger+Heysel\">Yellowfinger Heysel</a> in Farron Keep right after the Keep Ruins bonfire, but only if you have offered a Pale Tongue to Rosaria, which will block you out of Sirris' quest line, so I recommend saving this part for another playthrough. You'll gain the Proper Bow gesture after her summon"
       },
       {
        "id": "playthrough_6_69",
        "cls": "f_boss f_gest f_miss",
+       "item": "by-my-sword-a",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Hand+Gotthard\">Black Hand Gotthard</a> can be summoned and will grant you the By My Sword gesture. His summon sign is up the first set of stairs"
       },
       {
@@ -1908,6 +1945,7 @@
       {
        "id": "playthrough_6_71",
        "cls": "f_boss f_gest f_npc f_miss",
+       "item": "duel-bow-a",
        "html": "If you are on good terms with Yuria, you can also summon the <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Pale+Shade\">Londor Pale Shade</a> and gain the Duel Bow gesture. His summon sign is right next to the Farron Keep Perimeter bonfire. (Note: In order to be able to summon two phantoms at the same time, you have to use <a href=\"https://darksouls3.wiki.fextralife.com/Dried+Finger\">Dried Finger</a>. Black Hand Gotthard and Londor Pale Shade can also be summoned for another later fight, so don't worry about getting all the gestures here at once)"
       },
       {
@@ -2089,7 +2127,10 @@
       {
        "id": "playthrough_7_28",
        "cls": "f_npc f_gest f_ring f_miss",
-       "item": "knight-slayer's-ring-a",
+       "item": [
+        "knight-slayer's-ring-a",
+        "my-thanks-a"
+       ],
        "html": "Go through the tunnel that leads to the main pillar room. If you're embered, you'll be invaded by <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig\">Knight Slayer Tsorig</a>. Regardless of who wins the fight, you will receive the My Thanks! gesture. Defeating him will grant you the <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer's+Ring\">Knight Slayer's Ring</a>"
       },
       {
@@ -2276,7 +2317,8 @@
         "black-iron-helm",
         "black-iron-armor",
         "black-iron-gauntlets",
-        "black-iron-leggings"
+        "black-iron-leggings",
+        "my-thanks-b"
        ],
        "html": "Before going up the stairs take a left when you get to them and you'll encounter <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig\">Knight Slayer Tsorig</a>. Regardless of who wins the fight, you will receive the My Thanks! gesture (if you haven't gotten it before). After killing him, he will drop <a href=\"https://darksouls3.wiki.fextralife.com/Fume+Ultra+Greatsword\">Fume Ultra Greatsword</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Black+Iron+Greatshield\">Black Iron Greatshield</a>. If this is your first time defeating him, he will drop the <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer's+Ring\">Knight Slayer's Ring</a> as well. Also, the <a href=\"https://darksouls3.wiki.fextralife.com/Black+Iron+Set\">Black Iron Set</a> can be obtained via the <a href=\"https://darksouls3.wiki.fextralife.com/Shrine+Handmaid\">Shrine Handmaid</a>"
       },
@@ -2350,10 +2392,7 @@
       {
        "id": "playthrough_14_36",
        "cls": "f_boss f_misc",
-       "item": [
-        "old-demon-king",
-        "soul-of-the-old-demon-king"
-       ],
+       "item": "old-demon-king",
        "html": "Defeat the <a href=\"https://darksouls3.wiki.fextralife.com/Old+Demon+King\">Old Demon King</a>; receive <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Old+Demon+King\">Soul of the Old Demon King</a>"
       }
      ]
@@ -2453,7 +2492,10 @@
       {
        "id": "playthrough_15_17",
        "cls": "f_gest f_npc f_ring f_miss",
-       "item": "ring-of-the-evil-eye-b",
+       "item": [
+        "ring-of-the-evil-eye-b",
+        "quiet-resolve"
+       ],
        "html": "Anri will be in the same room. Exhaust the dialogue to receive the Quiet Resolve gesture. You will also be given the <a href=\"https://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye\">Ring of the Evil Eye</a> if not obtained previously. Next is the major dividing point in Anri's story: From here on out, if you want to follow this quest line to its conclusion, follow Anri A. If you want the Usurpation of Fire ending, follow Anri B"
       },
       {
@@ -2638,11 +2680,13 @@
       {
        "id": "playthrough_15_46",
        "cls": "f_boss f_gest f_miss",
+       "item": "by-my-sword-b",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Hand+Gotthard\">Black Hand Gotthard</a> can be summoned for the Pontiff Sulyvahn fight. If this is the first time you've summoned him, you'll receive the By My Sword gesture"
       },
       {
        "id": "playthrough_15_47",
        "cls": "f_boss f_gest f_npc f_miss",
+       "item": "duel-bow-b",
        "html": "If you are following the Yoel/Yuria quest line, you can summon the <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Pale+Shade\">Londor Pale Shade</a>. If this is the first time you've summoned them, you'll receive the Duel Bow gesture"
       },
       {
@@ -2767,6 +2811,7 @@
       {
        "id": "playthrough_15_69",
        "cls": "f_npc f_weap f_miss",
+       "item": "anris-straight-sword-b1",
        "html": "Anri B Progress: You can reload the area and pick up <a href=\"https://darksouls3.wiki.fextralife.com/Anri's+Straight+Sword\">Anri's Straight Sword</a> from where Anri was lying"
       },
       {
@@ -2821,6 +2866,7 @@
       {
        "id": "playthrough_8_3",
        "cls": "f_npc f_weap f_miss",
+       "item": "anris-straight-sword-b2",
        "html": "Anri B Progress: If you didn't get it before, you can return to where Anri's body was to find <a href=\"https://darksouls3.wiki.fextralife.com/Anri's+Straight+Sword\">Anri's Straight Sword</a>"
       },
       {
@@ -2867,10 +2913,7 @@
       {
        "id": "playthrough_8_12",
        "cls": "f_boss f_misc",
-       "item": [
-        "aldrich,-devourer-of-gods",
-        "soul-of-aldrich"
-       ],
+       "item": "aldrich,-devourer-of-gods",
        "html": "Defeat <a href=\"https://darksouls3.wiki.fextralife.com/Aldrich,+Devourer+of+Gods\">Aldrich, Devourer of Gods</a>; receive <a href=\"https://darksouls3.wiki.fextralife.com/Cinders+of+a+Lord\">Cinders of a Lord</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Aldrich\">Soul of Aldrich</a>"
       },
       {
@@ -2882,6 +2925,7 @@
       {
        "id": "playthrough_8_14",
        "cls": "f_npc f_weap f_miss",
+       "item": "anris-straight-sword-a",
        "html": "Anri A Progress: Return to Firelink Shrine and talk to Ludleth who hands you <a href=\"https://darksouls3.wiki.fextralife.com/Anri's+Straight+Sword\">Anri's Straight Sword</a>, which was left with him as a thanks to you"
       },
       {
@@ -3119,6 +3163,7 @@
       {
        "id": "playthrough_9_1",
        "cls": "f_bone f_gest",
+       "item": "stretch-out",
        "html": "At the first bonfire you will find poor Laddersmith Gilligan's dead corpse. You'll receive the Stretch Out gesture and an <a href=\"https://darksouls3.wiki.fextralife.com/Undead+Bone+Shard\">Undead Bone Shard</a> from examining it"
       },
       {
@@ -3313,10 +3358,7 @@
       {
        "id": "playthrough_10_1",
        "cls": "f_boss f_misc",
-       "item": [
-        "dancer-of-the-boreal-valley",
-        "soul-of-the-dancer"
-       ],
+       "item": "dancer-of-the-boreal-valley",
        "html": "Defeat the <a href=\"https://darksouls3.wiki.fextralife.com/Dancer+of+the+Boreal+Valley\">Dancer of the Boreal Valley</a>; receive <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Dancer\">Soul of the Dancer</a>"
       },
       {
@@ -3403,15 +3445,13 @@
       {
        "id": "playthrough_10_14",
        "cls": "f_boss f_misc",
-       "item": [
-        "oceiros,-the-consumed-king",
-        "soul-of-consumed-oceiros"
-       ],
+       "item": "oceiros,-the-consumed-king",
        "html": "Defeat <a href=\"https://darksouls3.wiki.fextralife.com/Oceiros,+the+Consumed+King\">Oceiros, the Consumed King</a>; receive <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Consumed+Oceiros\">Soul of Consumed Oceiros</a>"
       },
       {
        "id": "playthrough_10_15",
        "cls": "f_gest",
+       "item": "path-of-the-dragon",
        "html": "After defeating Oceiros, continue on down and you'll find the Path of the Dragon gesture on a body"
       },
       {
@@ -3805,10 +3845,7 @@
       {
        "id": "playthrough_12_45",
        "cls": "f_boss f_misc",
-       "item": [
-        "nameless-king",
-        "soul-of-the-nameless-king"
-       ],
+       "item": "nameless-king",
        "html": "Defeat the <a href=\"https://darksouls3.wiki.fextralife.com/Nameless+King\">Nameless King</a>; receive <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Nameless+King\">Soul of the Nameless King</a>"
       },
       {
@@ -4076,6 +4113,7 @@
       {
        "id": "playthrough_13_39",
        "cls": "f_gest f_tit",
+       "item": "praise-the-sun",
        "html": "Continue across the bridge to reach the Altar of Sunlight. Pray at it to receive the Praise the Sun gesture and offer <a href=\"https://darksouls3.wiki.fextralife.com/Sunlight+Medal\">Sunlight Medals</a> for the <a href=\"https://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight\">Warrior of Sunlight</a> covenant. The chest contains <a href=\"https://darksouls3.wiki.fextralife.com/Titanite+Scale\">Titanite Scale&nbsp;x3</a>. Open the door revealing a shortcut back to the Dragonslayer Armour area"
       },
       {
@@ -4465,16 +4503,18 @@
       {
        "id": "playthrough_18_56",
        "cls": "f_misc f_npc f_miss",
+       "item": [
+        "heysel-pick-c",
+        "xanthous-crown-c"
+       ],
        "html": "With Sirris' side quest complete, you are now free to finally continue <a href=\"https://darksouls3.wiki.fextralife.com/Leonhard\">Leonhard's</a>. Head to the Rosaria's Bed Chamber bonfire (you might find a Man-grub in here which drops <a href=\"https://darksouls3.wiki.fextralife.com/Heysel+Pick\">Heysel Pick</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Xanthous+Crown\">Xanthous Crown</a>) and give her a Pale Tongue. Leonhard should now appear in this room. If not, refresh the world. Exhaust his dialogue, refresh the world again and Rosaria will now be dead with a <a href=\"https://darksouls3.wiki.fextralife.com/Black+Eye+Orb\">Black Eye Orb</a> on her body"
       },
       {
        "id": "playthrough_18_57",
        "cls": "f_arm f_misc f_npc f_weap f_miss",
        "item": [
-        "bountiful-sunlight",
         "crescent-moon-sword",
         "silver-mask",
-        "soul-of-rosaria",
         "leonhard's-garb",
         "leonhard's-gauntlets",
         "leonhard's-trousers"
@@ -4514,7 +4554,6 @@
       {
        "id": "playthrough_19_7",
        "cls": "f_boss f_misc",
-       "item": "soul-of-the-lords",
        "html": "Defeat the <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Cinder\">Soul of Cinder</a>; receive <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Lords\">Soul of the Lords</a>"
       },
       {
@@ -5322,7 +5361,6 @@
       {
        "id": "playthrough_21_40",
        "cls": "f_boss f_misc",
-       "item": "soul-of-the-demon-prince",
        "html": "Defeat the <a href=\"https://darksouls3.wiki.fextralife.com/Demon+Prince\">Demon Prince</a> to gain the <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Demon+Prince\">Soul of the Demon Prince</a>"
       },
       {
@@ -5643,6 +5681,7 @@
       {
        "id": "playthrough_22_54",
        "cls": "f_gest f_npc f_miss",
+       "item": "patches-squat-b",
        "html": "Lapp should be in here. Interact with him to gain the Patches Squat gesture if you don't already have it and talk to him. If he is not present simply reset the zone"
       },
       {
@@ -5728,10 +5767,7 @@
       {
        "id": "playthrough_22_69",
        "cls": "f_boss f_cov f_misc",
-       "item": [
-        "soul-of-darkeater-midir",
-        "spears-of-the-church"
-       ],
+       "item": "spears-of-the-church",
        "html": "Defeat <a href=\"https://darksouls3.wiki.fextralife.com/Darkeater+Midir\">Darkeater Midir</a> to gain <a href=\"https://darksouls3.wiki.fextralife.com/Spears+of+the+Church\">Spears of the Church</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Darkeater+Midir\">Soul of Darkeater Midir</a>"
       },
       {
@@ -5842,6 +5878,7 @@
       {
        "id": "checklist_1_1",
        "cls": "",
+       "item": "beckon",
        "html": "<strong>Beckon</strong>: Talk to <a href=\"https://darksouls3.wiki.fextralife.com/Yoel+of+Londor\">Yoel of Londor</a> not far from the Foot of the High Wall bonfire"
       },
       {
@@ -5853,21 +5890,25 @@
       {
        "id": "checklist_1_3",
        "cls": "",
+       "item": "welcome",
        "html": "<strong>Welcome</strong>: Talk to the <a href=\"https://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> in the Undead Settlement, and accept his services. Talk to him again at Firelink Shrine to get the gesture"
       },
       {
        "id": "checklist_1_4",
        "cls": "",
+       "item": "applause",
        "html": "<strong>Applause</strong>: Received by talking to <a href=\"https://darksouls3.wiki.fextralife.com/Leonhard\">Leonhard</a> after defeating the Darkwraith in <a href=\"https://darksouls3.wiki.fextralife.com/High+Wall+of+Lothric\">High Wall of Lothric</a> at his request"
       },
       {
        "id": "checklist_1_5",
        "cls": "",
+       "item": "quiet-resolve",
        "html": "<strong>Quiet Resolve</strong>: Finish <a href=\"https://darksouls3.wiki.fextralife.com/Anri+of+Astora\">Anri of Astora</a>'s questline up to Irithyll of the Boreal Valley. They will grant you the gesture when speaking to them at the Church of Yorshka Bonfire"
       },
       {
        "id": "checklist_1_6",
        "cls": "",
+       "item": "rejoice",
        "html": "<strong>Rejoice</strong>: Received during the <a href=\"https://darksouls3.wiki.fextralife.com/Siegward+of+Catarina\">Siegward of Catarina</a> questline"
       },
       {
@@ -5879,81 +5920,118 @@
       {
        "id": "checklist_1_8",
        "cls": "",
+       "item": "praise-the-sun",
        "html": "<strong>Praise the Sun</strong>: Received from praying at the Altar of Sunlight in <a href=\"https://darksouls3.wiki.fextralife.com/Lothric+Castle\">Lothric Castle</a>, near the <a href=\"https://darksouls3.wiki.fextralife.com/Dragonslayer+Armour\">Dragonslayer Armour</a> boss fight"
       },
       {
        "id": "checklist_1_9",
        "cls": "",
+       "item": [
+        "my-thanks-a",
+        "my-thanks-b"
+       ],
        "html": "<strong>My Thanks!</strong>: Obtained from <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig\">Knight Slayer Tsorig</a> deep in the Demon Ruins, regardless of who wins the fight"
       },
       {
        "id": "checklist_1_10",
        "cls": "",
+       "item": "proper-bow",
        "html": "<strong>Proper Bow</strong>: Kill <a href=\"https://darksouls3.wiki.fextralife.com/Yellowfinger+Heysel\">Yellowfinger Heysel</a>, the NPC invader in Farron Keep. Then give a pale tongue to the Rosaria's Fingers covenant. Yellowfinger Heysel's summon sign appears next to the tower full of slugs near the Keep Ruins bonfire. Summon her to receive the gesture. Abyss Watchers must be alive"
       },
       {
        "id": "checklist_1_11",
        "cls": "",
+       "item": [
+        "dignified-bow-a",
+        "dignified-bow-b"
+       ],
        "html": "<strong>Dignified Bow</strong>: Received from meeting <a href=\"https://darksouls3.wiki.fextralife.com/Yuria+of+Londor\">Yuria of Londor</a>"
       },
       {
        "id": "checklist_1_12",
        "cls": "",
+       "item": [
+        "duel-bow-a",
+        "duel-bow-b"
+       ],
        "html": "<strong>Duel Bow</strong>: Received after summoning <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Pale+Shade\">Londor Pale Shade</a> before <a href=\"https://darksouls3.wiki.fextralife.com/Abyss+Watchers\">Abyss Watchers</a> or <a href=\"https://darksouls3.wiki.fextralife.com/Pontiff+Sulyvahn\">Pontiff Sulyvahn</a>"
       },
       {
        "id": "checklist_1_13",
        "cls": "",
+       "item": "legion-etiquette",
        "html": "<strong>Legion Etiquette</strong>: Pray to the Old Wolf of Farron in the Farron Swamp"
       },
       {
        "id": "checklist_1_14",
        "cls": "",
+       "item": "darkmoon-loyalty",
        "html": "<strong>Darkmoon Loyalty</strong>: Received from speaking with <a href=\"https://darksouls3.wiki.fextralife.com/Sirris+of+the+Sunless+Realms\">Sirris of the Sunless Realms</a> in Firelink Shrine after she arrives"
       },
       {
        "id": "checklist_1_15",
        "cls": "",
+       "item": [
+        "by-my-sword-a",
+        "by-my-sword-b"
+       ],
        "html": "<strong>By My Sword</strong>: Received from summoning <a href=\"https://darksouls3.wiki.fextralife.com/Black+Hand+Gotthard\">Black Hand Gotthard</a>. He will perform the gesture as he is summoned"
       },
       {
        "id": "checklist_1_16",
        "cls": "",
+       "item": "prayer-gesture",
        "html": "<strong>Prayer</strong>: Received from <a href=\"https://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a>"
       },
       {
        "id": "checklist_1_17",
        "cls": "",
+       "item": [
+        "silent-ally-a",
+        "silent-ally-b"
+       ],
        "html": "<strong>Silent Ally</strong>: Given by <a href=\"https://darksouls3.wiki.fextralife.com/Orbeck+of+Vinheim\">Orbeck of Vinheim</a> once you buy Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook"
       },
       {
        "id": "checklist_1_18",
        "cls": "",
+       "item": "rest-gesture",
        "html": "<strong>Rest</strong>: Received after resting at a bonfire for the first time"
       },
       {
        "id": "checklist_1_19",
        "cls": "",
+       "item": "collapse-gesture",
        "html": "<strong>Collapse</strong>: Received from meeting <a href=\"https://darksouls3.wiki.fextralife.com/Hawkwood\">Hawkwood</a>"
       },
       {
        "id": "checklist_1_20",
        "cls": "",
+       "item": [
+        "patches-squat-a",
+        "patches-squat-b"
+       ],
        "html": "<strong>Patches Squat</strong>: Talk to <a href=\"https://darksouls3.wiki.fextralife.com/Unbreakable+Patches\">Patches</a> while he's sitting in Firelink Shrine"
       },
       {
        "id": "checklist_1_21",
        "cls": "",
+       "item": [
+        "prostration-a",
+        "prostration-b"
+       ],
        "html": "<strong>Prostration</strong>: Received from <a href=\"https://darksouls3.wiki.fextralife.com/Unbreakable+Patches\">Patches</a> after replying no when he asks for forgiveness, or after confronting him in the Cathedral of the Deep after he lowers the bridge with \"You know who I am\""
       },
       {
        "id": "checklist_1_22",
        "cls": "",
+       "item": "toast",
        "html": "<strong>Toast</strong>: Received by talking to <a href=\"https://darksouls3.wiki.fextralife.com/Siegward+of+Catarina\">Siegward of Catarina</a> after defeating the demon in Undead Settlement"
       },
       {
        "id": "checklist_1_23",
        "cls": "",
+       "item": "sleep",
        "html": "<strong>Sleep</strong>: After receiving the Toast gesture from <a href=\"https://darksouls3.wiki.fextralife.com/Siegward+of+Catarina\">Siegward of Catarina</a>, wait for him to go to sleep. Then talk to him again"
       },
       {
@@ -5965,11 +6043,13 @@
       {
        "id": "checklist_1_25",
        "cls": "",
+       "item": "stretch-out",
        "html": "<strong>Stretch Out</strong>: Found on the corpse of Laddersmith Gilligan on the first bonfire in <a href=\"https://darksouls3.wiki.fextralife.com/Profaned+Capital\">Profaned Capital</a>"
       },
       {
        "id": "checklist_1_26",
        "cls": "",
+       "item": "path-of-the-dragon",
        "html": "<strong>Path of The Dragon</strong>: Received from corpse after <a href=\"https://darksouls3.wiki.fextralife.com/Oceiros,+the+Consumed+King\">Oceiros, the Consumed King</a>"
       }
      ]
@@ -6043,7 +6123,6 @@
       {
        "id": "checklist_2_13",
        "cls": "",
-       "item": "soul-of-consumed-oceiros",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/White+Dragon+Breath\">White Dragon Breath</a>: Obtained by <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Consumed+Oceiros\">Soul of Consumed Oceiros</a> Transposition"
       },
       {
@@ -6189,7 +6268,6 @@
       {
        "id": "checklist_3_5",
        "cls": "",
-       "item": "soul-of-the-old-demon-king",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Chaos+Bed+Vestiges\">Chaos Bed Vestiges</a>: Acquired from <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Old+Demon+King\">Soul of the Old Demon King</a> Transposition"
       },
       {
@@ -6290,7 +6368,6 @@
       {
        "id": "checklist_3_24",
        "cls": "",
-       "item": "soul-of-a-stray-demon",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Boulder%20Heave\">Boulder Heave</a>: Acquired from <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+a+Stray+Demon\">Soul of a Stray Demon</a> Transposition"
       },
       {
@@ -6340,7 +6417,6 @@
       {
        "id": "checklist_4_5",
        "cls": "",
-       "item": "soul-of-the-dancer",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Soothing+Sunlight\">Soothing Sunlight</a>: Acquired by <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Dancer\">Soul of the Dancer</a> Transposition"
       },
       {
@@ -6356,10 +6432,6 @@
       {
        "id": "checklist_4_8",
        "cls": "",
-       "item": [
-        "bountiful-sunlight",
-        "soul-of-rosaria"
-       ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Bountiful+Sunlight\">Bountiful Sunlight</a>: Acquired by <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Rosaria\">Soul of Rosaria</a> Transposition"
       },
       {
@@ -6419,7 +6491,6 @@
       {
        "id": "checklist_4_19",
        "cls": "",
-       "item": "soul-of-the-lords",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunlight+Spear\">Sunlight Spear</a>: Acquired by <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Lords\">Soul of the Lords</a> Transposition"
       },
       {
@@ -6431,7 +6502,6 @@
       {
        "id": "checklist_4_21",
        "cls": "",
-       "item": "soul-of-the-nameless-king",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Lightning+Storm\">Lightning Storm</a>: Acquired by <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Nameless+King\">Soul of the Nameless King</a> Transposition"
       },
       {
@@ -6507,7 +6577,6 @@
       {
        "id": "checklist_4_35",
        "cls": "",
-       "item": "soul-of-aldrich",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Lifehunt+Scythe\">Lifehunt Scythe</a>: Acquired from <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Aldrich\">Soul of Aldrich</a> Transposition"
       }
      ]
@@ -6563,7 +6632,6 @@
       {
        "id": "checklist_11_8",
        "cls": "",
-       "item": "soul-of-the-demon-prince",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Seething+Chaos\">Seething Chaos</a>: Obtained by <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+the+Demon+Prince\">Soul of the Demon Prince</a> Transposition (The Ringed City DLC)"
       },
       {
@@ -6575,7 +6643,6 @@
       {
        "id": "checklist_11_10",
        "cls": "",
-       "item": "soul-of-darkeater-midir",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Old+Moonlight\">Old Moonlight</a>: Obtained by <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Darkeater+Midir\">Soul of Darkeater Midir</a> Transposition (The Ringed City DLC)"
       }
      ]
@@ -7804,6 +7871,11 @@
         {
          "id": "weapons_1_22",
          "cls": "",
+         "item": [
+          "anris-straight-sword-a",
+          "anris-straight-sword-b1",
+          "anris-straight-sword-b2"
+         ],
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Anri's+Straight+Sword\">Anri's Straight Sword</a>"
         },
         {
@@ -8356,6 +8428,11 @@
         {
          "id": "weapons_1_100",
          "cls": "",
+         "item": [
+          "heysel-pick-a",
+          "heysel-pick-b",
+          "heysel-pick-c"
+         ],
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Heysel+Pick\">Heysel Pick</a>"
         },
         {
@@ -9845,6 +9922,11 @@
       {
        "id": "armors_1_27",
        "cls": "",
+       "item": [
+        "xanthous-crown-a",
+        "xanthous-crown-b",
+        "xanthous-crown-c"
+       ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Xanthous+Crown\">Xanthous Crown</a>"
       },
       {
