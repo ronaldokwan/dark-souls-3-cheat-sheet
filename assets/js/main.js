@@ -67,6 +67,13 @@ function canFilter(li) {
   let foundMatch = classList.includes('f_none') && Object.keys(hidden).some((k) => hidden[k]);
   for (let j = 0; j < classList.length; j++) {
     if (!/^f_/.test(classList[j]) || classList[j] === 'f_none') continue;
+    // Build classes are fully handled by the exclusionary loop above and must
+    // never count as a protective category here. Once a Builds toggle has been
+    // touched, its key sits in hidden_categories as "not hidden" - if it
+    // reached the check below, every build-tagged entry would become immune to
+    // the regular filters (hiding Miracles would stop hiding miracle pickups,
+    // since they all carry f_mirac_build).
+    if (/_build$/.test(classList[j])) continue;
     if (classList[j] in hidden) {
       if (!hidden[classList[j]]) return false;
       foundMatch = true;

@@ -321,6 +321,31 @@ test('build filter hides Playthrough entries but never the collection tabs', asy
   await expect(page.locator('li[data-id="playthrough_4_33"]')).toBeVisible();
 });
 
+// Regression: build classes must never shield an entry from the regular
+// category filters. Toggling a Builds filter on and off leaves its key in the
+// profile as "not hidden"; that key must not make build-tagged entries (every
+// spell pickup carries one) immune to the Sorceries/Pyromancies/Miracles
+// toggles.
+test('spell filters still work after a Builds toggle has been touched', async ({ page }) => {
+  await page.locator('#tabPlaythrough .filter-panel summary').click();
+
+  // Touch every Builds toggle (on, then off) so their keys are persisted.
+  await page.locator('label[for="cat_builds"]').click();
+  await page.locator('label[for="cat_builds"]').click();
+  await expect(page.locator('#f_mirac_build')).not.toBeChecked();
+
+  // Hiding Miracles must still hide a pure miracle pickup (f_mirac f_mirac_build).
+  await page.locator('label[for="f_mirac"]').click();
+  await expect(page.locator('li[data-id="playthrough_5_27"]')).toBeHidden();
+  // And f_none steps hide as usual while a filter is active, including the
+  // ones that also carry build classes (e.g. sending Karla to Firelink).
+  await expect(page.locator('li[data-id="playthrough_9_20"]')).toBeHidden();
+
+  await page.locator('label[for="f_mirac"]').click();
+  await expect(page.locator('li[data-id="playthrough_5_27"]')).toBeVisible();
+  await expect(page.locator('li[data-id="playthrough_9_20"]')).toBeVisible();
+});
+
 test('build highlight tints catalysts and rings on every checklist tab', async ({ page }) => {
   await page.locator('label[for="highlight_sorc"]').click();
   await expect(page.locator('li[data-id="playthrough_4_33"]')).toHaveClass(/build-highlight/);
