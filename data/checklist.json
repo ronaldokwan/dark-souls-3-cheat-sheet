@@ -116,7 +116,11 @@
       {
        "id": "playthrough_17_12",
        "cls": "f_arm f_weap f_miss",
-       "item": "uchigatana",
+       "item": [
+        "uchigatana",
+        "master's-attire",
+        "master's-gloves"
+       ],
        "html": "Kill <a href=\"https://darksouls3.wiki.fextralife.com/Sword+Master\">Sword Master Saber</a> to get <a href=\"https://darksouls3.wiki.fextralife.com/Uchigatana\">Uchigatana</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Master's+Set\">Master's Set</a> and to unlock his summon sign"
       },
       {
@@ -196,6 +200,10 @@
       {
        "id": "playthrough_1_11",
        "cls": "f_arm f_gest",
+       "item": [
+        "iron-bracelets",
+        "call-over"
+       ],
        "html": "Trade a <a href=\"https://darksouls3.wiki.fextralife.com/Homeward+Bone\">Homeward Bone</a> with <a href=\"https://darksouls3.wiki.fextralife.com/Pickle+Pee,+Pump-a-Rum+Crow\">Pickle-Pee, Pump-a-Rum</a> crow to receive the Call Over gesture and the <a href=\"https://darksouls3.wiki.fextralife.com/Iron+Bracelets\">Iron Bracelets</a>. For the other trade options see the <a href=\"#\" onclick=\"$('.nav.navbar-nav li a[href=\\x22#tabMisc\\x22]').click();\">Misc</a> page"
       },
       {
@@ -217,6 +225,11 @@
       {
        "id": "playthrough_1_15",
        "cls": "f_arm",
+       "item": [
+        "fire-keeper-robe",
+        "fire-keeper-gloves",
+        "fire-keeper-skirt"
+       ],
        "html": "Go back down the lift and look down the right side. Carefully jump down to the tombstone and pick up the <a href=\"https://darksouls3.wiki.fextralife.com/Fire+Keeper+Set\">Fire Keeper Set</a> from the corpse "
       },
       {
@@ -727,7 +740,13 @@
       {
        "id": "playthrough_3_28",
        "cls": "f_arm f_misc f_weap",
-       "item": "large-club",
+       "item": [
+        "large-club",
+        "northern-helm",
+        "northern-armor",
+        "northern-gloves",
+        "northern-trousers"
+       ],
        "html": "Around the town, you can grab a <a href=\"https://darksouls3.wiki.fextralife.com/Homeward+Bone\">Homeward Bone</a> and a <a href=\"https://darksouls3.wiki.fextralife.com/Large+Club\">Large Club</a>. You can also get the <a href=\"https://darksouls3.wiki.fextralife.com/Northern+Armor+Set\">Northern Armor Set</a> from a nearby hanging corpse"
       },
       {
@@ -750,13 +769,24 @@
       {
        "id": "playthrough_3_31",
        "cls": "f_arm f_misc f_ring",
-       "item": "chloranthy-ring",
+       "item": [
+        "chloranthy-ring",
+        "mirrah-vest",
+        "mirrah-gloves",
+        "mirrah-trousers"
+       ],
        "html": "Drop down onto the ledge of a tower. Grab <a href=\"https://darksouls3.wiki.fextralife.com/Homeward+Bone\">Homeward Bone&nbsp;x2</a>. Drop down from within the tower to get the <a href=\"https://darksouls3.wiki.fextralife.com/Mirrah+Set\">Mirrah Set</a> without the mask and the <a href=\"https://darksouls3.wiki.fextralife.com/Chloranthy+Ring\">Chloranthy Ring</a>"
       },
       {
        "id": "playthrough_3_40",
        "cls": "f_arm f_ash f_weap",
-       "item": "blue-wooden-shield",
+       "item": [
+        "blue-wooden-shield",
+        "cleric-hat",
+        "cleric-blue-robe",
+        "cleric-gloves",
+        "cleric-trousers"
+       ],
        "html": "Warp back to the Dilapidated Bridge bonfire, enter the graveyard pierced by giant arrows, and walk towards the house on the left. Grab <a href=\"https://darksouls3.wiki.fextralife.com/Blue+Wooden+Shield\">Blue Wooden Shield</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Cleric+Set\">Cleric Set</a> in front of the house and <a href=\"https://darksouls3.wiki.fextralife.com/Mortician's+Ashes\">Mortician's Ashes</a> by a tree to the left. If dodging the giant arrows is too troublesome, head to the tower to befriend the Giant"
       },
       {
@@ -871,7 +901,11 @@
        "cls": "f_arm f_weap",
        "item": [
         "brigand-axe",
-        "brigand-twindaggers"
+        "brigand-twindaggers",
+        "brigand-hood",
+        "brigand-armor",
+        "brigand-gauntlets",
+        "brigand-trousers"
        ],
        "html": "Grab the <a href=\"https://darksouls3.wiki.fextralife.com/Brigand+Axe\">Brigand Axe</a>, the <a href=\"https://darksouls3.wiki.fextralife.com/Brigand+Set\">Brigand Set</a>, and the <a href=\"https://darksouls3.wiki.fextralife.com/Brigand+Twindaggers\">Brigand Twindaggers</a> from this lower area"
       },
@@ -910,6 +944,12 @@
       {
        "id": "playthrough_4_12",
        "cls": "f_arm",
+       "item": [
+        "sellsword-helm",
+        "sellsword-armor",
+        "sellsword-gauntlet",
+        "sellsword-trousers"
+       ],
        "html": "Drop off again and head straight while hugging the wall to your right. You'll arrive at a door. Head in and straight across to a balcony-type area where you'll find some stairs leading to the <a href=\"https://darksouls3.wiki.fextralife.com/Sellsword+Set\">Sellsword Set</a>"
       },
       {
@@ -983,13 +1023,25 @@
       {
        "id": "playthrough_4_26",
        "cls": "f_arm f_misc f_tome f_weap",
-       "item": "grass-crest-shield",
+       "item": [
+        "grass-crest-shield",
+        "conjurator-hood",
+        "conjurator-robe",
+        "conjurator-manchettes",
+        "conjurator-boots"
+       ],
        "html": "You will find the following items in the water: <a href=\"https://darksouls3.wiki.fextralife.com/Green+Blossom\">Green Blossom&nbsp;x2</a>, <a href=\"https://darksouls3.wiki.fextralife.com/Green+Blossom\">Green Blossom&nbsp;x4</a>, the <a href=\"https://darksouls3.wiki.fextralife.com/Grass+Crest+Shield\">Grass Crest Shield</a>, the <a href=\"https://darksouls3.wiki.fextralife.com/Conjurator+Set\">Conjurator Set</a>, and the <a href=\"https://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome\">Great Swamp Pyromancy Tome</a>. The tome and the set are in the deep part of the swamp near the entrance of <a href=\"https://darksouls3.wiki.fextralife.com/Farron+Keep\">Farron Keep</a>"
       },
       {
        "id": "playthrough_4_27",
        "cls": "f_arm f_ring",
-       "item": "sage-ring",
+       "item": [
+        "sage-ring",
+        "sorcerer-hood",
+        "sorcerer-robe",
+        "sorcerer-gloves",
+        "sorcerer-trousers"
+       ],
        "html": "In the water near where you jump down from the Crucifixion Woods bonfire (near where the two Green Blossoms were), there are steps leading out of the water and a door to the left of them. Head through the door to find a small area with the <a href=\"https://darksouls3.wiki.fextralife.com/Sage+Ring\">Sage Ring</a> and the <a href=\"https://darksouls3.wiki.fextralife.com/Sorcerer+Set\">Sorcerer Set</a>"
       },
       {
@@ -1026,6 +1078,12 @@
       {
        "id": "playthrough_4_31",
        "cls": "f_arm f_misc",
+       "item": [
+        "fallen-knight-helm",
+        "fallen-knight-armor",
+        "fallen-knight-gauntlets",
+        "fallen-knight-trousers"
+       ],
        "html": "Near the water's edge is a corpse with the <a href=\"https://darksouls3.wiki.fextralife.com/Fallen+Knight+Set\">Fallen Knight Set</a>. There is also a <a href=\"https://darksouls3.wiki.fextralife.com/Large+Soul+of+an+Unknown+Traveler\">Large Soul of an Unknown Traveler</a> by the wall"
       },
       {
@@ -1047,6 +1105,10 @@
       {
        "id": "playthrough_4_36",
        "cls": "f_gest f_npc f_ring f_miss",
+       "item": [
+        "young-dragon-ring-a",
+        "slumbering-dragoncrest-ring-a"
+       ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Orbeck+of+Vinheim\">Orbeck of Vinheim</a> grants you different rewards based on certain criteria. If you are not a sorcerer, the <a href=\"https://darksouls3.wiki.fextralife.com/Young+Dragon+Ring\">Young Dragon Ring</a> is given to you after buying three of his spells and giving him at least one scroll. You will be rewarded with the Silent Ally gesture and the <a href=\"https://darksouls3.wiki.fextralife.com/Slumbering+Dragoncrest+Ring\">Slumbering Dragoncrest Ring</a> after buying Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook."
       },
       {
@@ -1073,6 +1135,12 @@
       {
        "id": "playthrough_4_41",
        "cls": "f_arm",
+       "item": [
+        "herald-helm",
+        "herald-armor",
+        "herald-gloves",
+        "herald-trousers"
+       ],
        "html": "Continue following these twisting paths until you can drop down next to a large fire and the <a href=\"https://darksouls3.wiki.fextralife.com/Herald+Set\">Herald Set</a>. Continue on to the Cathedral of the Deep bonfire"
       }
      ]
@@ -1256,6 +1324,12 @@
       {
        "id": "playthrough_5_32",
        "cls": "f_arm f_misc",
+       "item": [
+        "maiden-hood",
+        "maiden-robe",
+        "maiden-gloves",
+        "maiden-skirt"
+       ],
        "html": "Kill the giant if you haven't already (the one in the larger open area) and grab the <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+a+Nameless+Soldier\">Soul of a Nameless Soldier</a> and the <a href=\"https://darksouls3.wiki.fextralife.com/Maiden+Set\">Maiden Set</a>"
       },
       {
@@ -1272,7 +1346,12 @@
       {
        "id": "playthrough_5_35",
        "cls": "f_arm f_misc f_weap",
-       "item": "drang-hammers",
+       "item": [
+        "drang-hammers",
+        "drang-armor",
+        "drang-gauntlets",
+        "drang-shoes"
+       ],
        "html": "Travel over to the other end of the large, open, water-filled area to the other giant. Kill this one and the slimes around him, and you'll be able to grab a <a href=\"https://darksouls3.wiki.fextralife.com/Pale+Tongue\">Pale Tongue</a>, the <a href=\"https://darksouls3.wiki.fextralife.com/Drang+Armor+Set\">Drang Armor Set</a>, and the <a href=\"https://darksouls3.wiki.fextralife.com/Drang+Hammers\">Drang Hammers</a>"
       },
       {
@@ -1338,6 +1417,12 @@
       {
        "id": "playthrough_5_45",
        "cls": "f_arm f_miss",
+       "item": [
+        "helm-of-thorns",
+        "armor-of-thorns",
+        "gauntlets-of-thorns",
+        "leggings-of-thorns"
+       ],
        "html": "If you killed Longfinger Kirk when he invaded earlier, you can grab the <a href=\"https://darksouls3.wiki.fextralife.com/Armor+of+Thorns+Set\">Armor of Thorns Set</a> nearby"
       },
       {
@@ -1384,6 +1469,11 @@
       {
        "id": "playthrough_5_54",
        "cls": "f_arm",
+       "item": [
+        "archdeacon-white-crown",
+        "archdeacon-holy-garb",
+        "archdeacon-skirt"
+       ],
        "html": "Rest at the bonfire so you can pick up the <a href=\"https://darksouls3.wiki.fextralife.com/Archdeacon+Set\">Archdeacon Set</a> near the altar"
       }
      ]
@@ -1625,6 +1715,12 @@
       {
        "id": "playthrough_6_16",
        "cls": "f_arm f_miss",
+       "item": [
+        "nameless-knight-helm",
+        "nameless-knight-armor",
+        "nameless-knight-gauntlets",
+        "nameless-knight-leggings"
+       ],
        "html": "From the next small island with a fire, make a quick detour to the left where the <a href=\"https://darksouls3.wiki.fextralife.com/Nameless+Knight+Set\">Nameless Knight Set</a> is stashed between a tower and a rock wall. (Going there may trigger an invasion by Yellowfinger Heysel, but she spawns out of immediate reach on the other side of the tower)"
       },
       {
@@ -1685,6 +1781,11 @@
       {
        "id": "playthrough_6_45",
        "cls": "f_arm",
+       "item": [
+        "antiquated-dress",
+        "antiquated-gloves",
+        "antiquated-skirt"
+       ],
        "html": "Right next to the scroll is the <a href=\"https://darksouls3.wiki.fextralife.com/Antiquated+Set\">Antiquated Set</a> in a chest"
       },
       {
@@ -1768,6 +1869,10 @@
       {
        "id": "playthrough_6_77",
        "cls": "f_gest f_npc f_ring f_miss",
+       "item": [
+        "young-dragon-ring-b",
+        "slumbering-dragoncrest-ring-b"
+       ],
        "html": "Buy Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook from Orbeck. Then talk to him multiple times to obtain the <a href=\"https://darksouls3.wiki.fextralife.com/Young+Dragon+Ring\">Young Dragon Ring</a>, the Silent Ally gesture, and the <a href=\"https://darksouls3.wiki.fextralife.com/Slumbering+Dragoncrest+Ring\">Slumbering Dragoncrest Ring</a>"
       },
       {
@@ -1984,6 +2089,7 @@
       {
        "id": "playthrough_7_28",
        "cls": "f_npc f_gest f_ring f_miss",
+       "item": "knight-slayer's-ring-a",
        "html": "Go through the tunnel that leads to the main pillar room. If you're embered, you'll be invaded by <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig\">Knight Slayer Tsorig</a>. Regardless of who wins the fight, you will receive the My Thanks! gesture. Defeating him will grant you the <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer's+Ring\">Knight Slayer's Ring</a>"
       },
       {
@@ -2039,7 +2145,10 @@
       {
        "id": "playthrough_14_5",
        "cls": "f_arm f_ring",
-       "item": "old-sage's-blindfold",
+       "item": [
+        "old-sage's-blindfold",
+        "witch's-ring"
+       ],
        "html": "Go down the stairs to find <a href=\"https://darksouls3.wiki.fextralife.com/Old+Sage's+Blindfold\">Old Sage's Blindfold</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Witch's+Ring\">Witch's Ring</a>"
       },
       {
@@ -2162,7 +2271,12 @@
        "cls": "f_gest f_ring f_weap f_miss",
        "item": [
         "black-iron-greatshield",
-        "fume-ultra-greatsword"
+        "fume-ultra-greatsword",
+        "knight-slayer's-ring-b",
+        "black-iron-helm",
+        "black-iron-armor",
+        "black-iron-gauntlets",
+        "black-iron-leggings"
        ],
        "html": "Before going up the stairs take a left when you get to them and you'll encounter <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig\">Knight Slayer Tsorig</a>. Regardless of who wins the fight, you will receive the My Thanks! gesture (if you haven't gotten it before). After killing him, he will drop <a href=\"https://darksouls3.wiki.fextralife.com/Fume+Ultra+Greatsword\">Fume Ultra Greatsword</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Black+Iron+Greatshield\">Black Iron Greatshield</a>. If this is your first time defeating him, he will drop the <a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer's+Ring\">Knight Slayer's Ring</a> as well. Also, the <a href=\"https://darksouls3.wiki.fextralife.com/Black+Iron+Set\">Black Iron Set</a> can be obtained via the <a href=\"https://darksouls3.wiki.fextralife.com/Shrine+Handmaid\">Shrine Handmaid</a>"
       },
@@ -2202,7 +2316,13 @@
       {
        "id": "playthrough_14_32",
        "cls": "f_npc f_weap f_miss",
-       "item": "llewellyn-shield",
+       "item": [
+        "llewellyn-shield",
+        "executioner-helm",
+        "executioner-armor",
+        "executioner-gauntlets",
+        "executioner-leggings"
+       ],
        "html": "You'll also find Horace, who has succumbed to his Dark Sigils and become hostile. Kill him and he'll drop the <a href=\"https://darksouls3.wiki.fextralife.com/Llewellyn+Shield\">Llewellyn Shield</a>. The Shrine Handmaid will also now sell Horace's <a href=\"https://darksouls3.wiki.fextralife.com/Executioner+Set\">Executioner's Armor Set</a>"
       },
       {
@@ -2213,12 +2333,18 @@
       {
        "id": "playthrough_14_34",
        "cls": "f_npc f_ring f_miss",
+       "item": "ring-of-the-evil-eye-a",
        "html": "If you killed Horace but have not yet defeated High Lord Wolnir, you can go back to the Catacombs and speak with Anri above the wooden bridge. Tell of the Smouldering Lake and you'll be given the <a href=\"https://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye\">Ring of the Evil Eye</a>. If Wolnir has already been destroyed, Anri will be gone from the Catacombs and you will be given the ring on your next meeting in Irithyll of the Boreal Valley"
       },
       {
        "id": "playthrough_14_35",
        "cls": "f_arm f_boss f_weap f_miss",
-       "item": "spotted-whip",
+       "item": [
+        "spotted-whip",
+        "cornyx's-garb",
+        "cornyx's-wrap",
+        "cornyx's-skirt"
+       ],
        "html": "Before fighting the Old Demon King you can summon Knight Slayer Tsorig (next to the Demon Ruins bonfire, if you defeated him in Catacombs of Carthus) and Great Swamp Cuculus (in front of the fog door). If the Great Swamp Cuculus survives the fight, go back to the cage in Undead Settlement you found Cornyx in to receive <a href=\"https://darksouls3.wiki.fextralife.com/Spotted+Whip\">Spotted Whip</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Cornyx's+Set\">Cornyx's Set</a>"
       },
       {
@@ -2327,11 +2453,13 @@
       {
        "id": "playthrough_15_17",
        "cls": "f_gest f_npc f_ring f_miss",
+       "item": "ring-of-the-evil-eye-b",
        "html": "Anri will be in the same room. Exhaust the dialogue to receive the Quiet Resolve gesture. You will also be given the <a href=\"https://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye\">Ring of the Evil Eye</a> if not obtained previously. Next is the major dividing point in Anri's story: From here on out, if you want to follow this quest line to its conclusion, follow Anri A. If you want the Usurpation of Fire ending, follow Anri B"
       },
       {
        "id": "playthrough_15_18",
        "cls": "f_npc f_sorc f_miss",
+       "item": "chameleon-a",
        "html": "Anri A Progress: (Slayer of Aldrich Ending) Look towards the side of the room that has some stone statues. One of these is actually a pilgrim in disguise sent by Yuria. Slash away at the statues until you find him and make sure he's dead. He'll drop the <a href=\"https://darksouls3.wiki.fextralife.com/Chameleon\">Chameleon</a> sorcery for you as well"
       },
       {
@@ -2352,7 +2480,12 @@
       {
        "id": "playthrough_15_21",
        "cls": "f_npc f_arm f_bone f_weap f_miss",
-       "item": "dragonslayer's-axe",
+       "item": [
+        "dragonslayer's-axe",
+        "mirrah-chain-mail",
+        "mirrah-chain-gloves",
+        "mirrah-chain-leggings"
+       ],
        "html": "An <a href=\"https://darksouls3.wiki.fextralife.com/Undead+Bone+Shard\">Undead Bone Shard</a> is located behind the grave. If you helped Sirris, <a href=\"https://darksouls3.wiki.fextralife.com/Creighton+the+Wanderer\">Creighton the Wanderer</a> will invade you here if you're embered. Killing him will gain you the <a href=\"https://darksouls3.wiki.fextralife.com/Dragonslayer's+Axe\">Dragonslayer's Axe</a> and allow you to grab Creighton's <a href=\"https://darksouls3.wiki.fextralife.com/Mirrah+Chain+Set\">Mirrah Chain Armor Set</a> on the bridge where you used Sirris' summon sign"
       },
       {
@@ -2437,6 +2570,11 @@
       {
        "id": "playthrough_15_35",
        "cls": "f_arm f_npc f_weap f_miss",
+       "item": [
+        "pale-shade-robe",
+        "pale-shade-gloves",
+        "pale-shade-trousers"
+       ],
        "html": "If you are on bad terms with Yuria (healed the Dark Sigil or attacked her or killed the assassin in the Church of Yorshka) and are embered, dark spirit <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Pale+Shade\">Londor Pale Shade</a> will invade your world after the Silver Knights' room. (Note: If you are currently eligible for the invasion by <a href=\"https://darksouls3.wiki.fextralife.com/Creighton+the+Wanderer\">Creighton the Wanderer</a>, you will have to eliminate that one first to get Londor Pale Shade to spawn.) If this is your first time killing him, you will receive the <a href=\"https://darksouls3.wiki.fextralife.com/Manikin+Claws\">Manikin Claws</a>. If you defeated <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Pale+Shade\">Londor Pale Shade</a> in both of his invasions, then you can pick up the <a href=\"https://darksouls3.wiki.fextralife.com/Pale+Shade+Set\">Pale Shade Set</a> near Yuria's location in Firelink Shrine"
       },
       {
@@ -2616,6 +2754,14 @@
       {
        "id": "playthrough_15_66",
        "cls": "f_arm f_npc f_ring f_sorc f_miss",
+       "item": [
+        "reversal-ring-b",
+        "chameleon-b",
+        "brass-helm-b",
+        "brass-armor-b",
+        "brass-gauntlets-b",
+        "brass-leggings-b"
+       ],
        "html": "Anri B Progress: Before activating the lift to Anor Londo, there is a path that goes down in the room before the lever. Here you'll find the pilgrim waiting for you. He'll give you the <a href=\"https://darksouls3.wiki.fextralife.com/Sword+of+Avowal\">Sword of Avowal</a> and tell you Anri is waiting ahead. Head down, picking up the <a href=\"https://darksouls3.wiki.fextralife.com/Brass+Set\">Brass Set</a> along the way, to find Anri's body at the altar. Perform the Rite of Avowal and you'll gain 3 Dark Sigils, granting you the total amount of 8 Dark Sigils you need for the Usurpation of Fire ending. To the right of the altar, you will find the <a href=\"https://darksouls3.wiki.fextralife.com/Reversal+Ring\">Reversal Ring</a>. Revisit the pilgrim and you will discover he is now dead with the <a href=\"https://darksouls3.wiki.fextralife.com/Chameleon\">Chameleon</a> sorcery on his body"
       },
       {
@@ -2626,6 +2772,13 @@
       {
        "id": "playthrough_15_67",
        "cls": "f_arm f_ring",
+       "item": [
+        "reversal-ring-a",
+        "brass-helm-a",
+        "brass-armor-a",
+        "brass-gauntlets-a",
+        "brass-leggings-a"
+       ],
        "html": "Anri A Progress: You will find an illusory wall where the path down to the altar would be. You can find the <a href=\"https://darksouls3.wiki.fextralife.com/Brass+Set\">Brass Set</a> and <a href=\"https://darksouls3.wiki.fextralife.com/Reversal+Ring\">Reversal Ring</a> in the same places"
       },
       {
@@ -2650,7 +2803,13 @@
       {
        "id": "playthrough_8_2",
        "cls": "f_arm f_weap",
-       "item": "painting-guardian's-curved-sword",
+       "item": [
+        "painting-guardian's-curved-sword",
+        "painting-guardian-hood",
+        "painting-guardian-gown",
+        "painting-guardian-gloves",
+        "painting-guardian-waistcloth"
+       ],
        "html": "If you drop down the tower you can find <a href=\"https://darksouls3.wiki.fextralife.com/Painting+Guardian's+Curved+Sword\">Painting Guardian's Curved Sword</a> as well as the <a href=\"https://darksouls3.wiki.fextralife.com/Painting+Guardian+Set\">Painting Guardian Set</a>. Warp back to the Anor Londo bonfire"
       },
       {
@@ -2733,7 +2892,13 @@
       {
        "id": "playthrough_8_16",
        "cls": "f_arm f_cov f_npc f_weap f_miss",
-       "item": "sunset-shield",
+       "item": [
+        "sunset-shield",
+        "sunset-helm",
+        "sunset-armor",
+        "sunset-gauntlets",
+        "sunset-leggings"
+       ],
        "html": "If you are following Sirris' quest and have defeated Aldrich, travel to Undead Settlement via either the Cliff Underside or Dilapidated Bridge bonfire and make your way back to the room before the Curse-rotted Greatwood fight. You will find Sirris' summon sign right before the giant hole that leads to the Pit of Hollows. You'll be summoned to fight <a href=\"https://darksouls3.wiki.fextralife.com/Holy+Knight+Hodrick\">Holy Knight Hodrick</a>, who turns out to be Sirris' grandfather. After defeating Holy Knight Hodrick, you will gain the <a href=\"https://darksouls3.wiki.fextralife.com/Mound-Maker\">Mound-makers</a> covenant (if not obtained before). The <a href=\"https://darksouls3.wiki.fextralife.com/Sunset+Armor+Set\">Sunset Armor Set</a> will be available in the Pit of Hollows bonfire area and you will find the <a href=\"https://darksouls3.wiki.fextralife.com/Sunset+Shield\">Sunset Shield</a> on a grave at the cliff outside of Firelink Shrine (from the Iudex Gundyr bonfire go up the first set of stairs, then right)"
       },
       {
@@ -2788,6 +2953,12 @@
       {
        "id": "playthrough_16_8",
        "cls": "f_arm",
+       "item": [
+        "old-sorcerer-hat",
+        "old-sorcerer-coat",
+        "old-sorcerer-gauntlets",
+        "old-sorcerer-boots"
+       ],
        "html": "Continue down this path and in a cell you'll find the <a href=\"https://darksouls3.wiki.fextralife.com/Old+Sorcerer+Set\">Old Sorcerer Set</a>"
       },
       {
@@ -2924,6 +3095,12 @@
       {
        "id": "playthrough_16_34",
        "cls": "f_arm f_miss",
+       "item": [
+        "alva-helm",
+        "alva-armor",
+        "alva-gauntlets",
+        "alva-leggings"
+       ],
        "html": "In front of Karla's cell, you'll find the <a href=\"https://darksouls3.wiki.fextralife.com/Alva+Set\">Alva Set</a> (this set only appears if you have killed Alva at the start of the dungeon)"
       },
       {
@@ -3002,7 +3179,13 @@
       {
        "id": "playthrough_9_10",
        "cls": "f_arm f_weap",
-       "item": "court-sorcerer's-staff",
+       "item": [
+        "court-sorcerer's-staff",
+        "court-sorcerer-hood",
+        "court-sorcerer-robe",
+        "court-sorcerer-gloves",
+        "court-sorcerer-trousers"
+       ],
        "html": "In this room, you will find the <a href=\"https://darksouls3.wiki.fextralife.com/Court+Sorcerer+Set\">Court Sorcerer Set</a> and a Mimic chest containing the <a href=\"https://darksouls3.wiki.fextralife.com/Court+Sorcerer's+Staff\">Court Sorcerer's Staff</a>"
       },
       {
@@ -3111,7 +3294,11 @@
        "cls": "f_arm f_npc f_weap f_miss",
        "item": [
         "pierce-shield",
-        "storm-ruler"
+        "storm-ruler",
+        "catarina-helm",
+        "catarina-armor",
+        "catarina-gauntlets",
+        "catarina-leggings"
        ],
        "html": "If Siegward helped you defeat Yhorm, return to Yhorm's boss room to find Siegward's <a href=\"https://darksouls3.wiki.fextralife.com/Storm+Ruler\">Storm Ruler</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Pierce+Shield\">Pierce Shield</a> as well as his <a href=\"https://darksouls3.wiki.fextralife.com/Catarina+Set\">Catarina Armor Set</a>. If Yhorm is your second Lord of Cinder simply walk towards the flame on the outside and Siegward will die, dropping the items"
       }
@@ -3172,7 +3359,13 @@
       {
        "id": "playthrough_10_7",
        "cls": "f_arm f_misc f_weap",
-       "item": "claw",
+       "item": [
+        "claw",
+        "shadow-mask",
+        "shadow-garb",
+        "shadow-gauntlets",
+        "shadow-leggings"
+       ],
        "html": "Around where the slugs are you can find <a href=\"https://darksouls3.wiki.fextralife.com/Black+Firebomb\">Black Firebomb&nbsp;x2</a>, the <a href=\"https://darksouls3.wiki.fextralife.com/Claw\">Claw</a>, the <a href=\"https://darksouls3.wiki.fextralife.com/Shadow+Set\">Shadow Set</a>, and a <a href=\"https://darksouls3.wiki.fextralife.com/Human+Pine+Resin\">Human Pine Resin</a>"
       },
       {
@@ -3321,7 +3514,13 @@
       {
        "id": "playthrough_11_15",
        "cls": "f_miss",
-       "item": "priestess-ring",
+       "item": [
+        "priestess-ring",
+        "wolf-knight-helm",
+        "wolf-knight-armor",
+        "wolf-knight-gauntlets",
+        "wolf-knight-leggings"
+       ],
        "html": "There is another Shrine Handmaid here that sells the <a href=\"https://darksouls3.wiki.fextralife.com/Wolf+Knight+Set\">Wolf Knight Armor Set</a>, the <a href=\"https://darksouls3.wiki.fextralife.com/Priestess+Ring\">Priestess Ring</a>, and other merchandise. Unlike the regular Handmaid, she will not respawn if killed, so be careful"
       },
       {
@@ -3467,7 +3666,13 @@
       {
        "id": "playthrough_12_22",
        "cls": "f_arm f_weap",
-       "item": "drakeblood-greatsword",
+       "item": [
+        "drakeblood-greatsword",
+        "drakeblood-helm",
+        "drakeblood-armor",
+        "drakeblood-gauntlets",
+        "drakeblood-leggings"
+       ],
        "html": "Kill the <a href=\"https://darksouls3.wiki.fextralife.com/Drakeblood+Knight\">Drakeblood Knight</a> back at the Dragon-Kin Mausoleum to receive the <a href=\"https://darksouls3.wiki.fextralife.com/Drakeblood+Greatsword\">Drakeblood Greatsword</a>. After killing the Drakeblood Knight, return to the Oceiros, the Consumed King bonfire and run up to the altar where you got the Path of the Dragon gesture to find the <a href=\"https://darksouls3.wiki.fextralife.com/Drakeblood+Set\">Drakeblood Set</a> waiting for you there"
       },
       {
@@ -3579,6 +3784,12 @@
       {
        "id": "playthrough_12_42",
        "cls": "f_arm",
+       "item": [
+        "havel's-helm",
+        "havel's-armor",
+        "havel's-gauntlets",
+        "havel's-leggings"
+       ],
        "html": "After defeating Havel, you can find <a href=\"https://darksouls3.wiki.fextralife.com/Havel's+Set\">Havel's Set</a> near the <a href=\"https://darksouls3.wiki.fextralife.com/Stray+Demon\">Stray Demon</a> above the Old Wolf of Farron"
       },
       {
@@ -3608,6 +3819,12 @@
       {
        "id": "playthrough_12_47",
        "cls": "f_arm f_tit",
+       "item": [
+        "dragonslayer-helm",
+        "dragonslayer-armor",
+        "dragonslayer-gauntlets",
+        "dragonslayer-leggings"
+       ],
        "html": "On the path towards the mausoleum you'll find a <a href=\"https://darksouls3.wiki.fextralife.com/Titanite+Slab\">Titanite Slab</a> and farther on the <a href=\"https://darksouls3.wiki.fextralife.com/Dragonslayer+Set\">Dragonslayer Set</a>"
       },
       {
@@ -3637,6 +3854,11 @@
       {
        "id": "playthrough_13_3",
        "cls": "f_arm",
+       "item": [
+        "hood-of-prayer",
+        "robe-of-prayer",
+        "skirt-of-prayer"
+       ],
        "html": "In the next room, you will find the <a href=\"https://darksouls3.wiki.fextralife.com/Prayer+Set\">Prayer Set</a> in a chest"
       },
       {
@@ -3647,7 +3869,13 @@
       {
        "id": "playthrough_13_5",
        "cls": "f_arm f_tit f_weap",
-       "item": "sacred-bloom-shield",
+       "item": [
+        "sacred-bloom-shield",
+        "winged-knight-helm",
+        "winged-knight-armor",
+        "winged-knight-gauntlets",
+        "winged-knight-leggings"
+       ],
        "html": "Continue outside and enter the room on the right. There will be a Winged Knight with twinaxes and a <a href=\"https://darksouls3.wiki.fextralife.com/Twinkling+Titanite\">Twinkling Titanite</a> behind the ladder. Climb the ladder and there will be an illusionary wall to a room with the <a href=\"https://darksouls3.wiki.fextralife.com/Winged+Knight+Set\">Winged Knight Set</a> and <a href=\"https://darksouls3.wiki.fextralife.com/Sacred+Bloom+Shield\">Sacred Bloom Shield</a>"
       },
       {
@@ -3871,7 +4099,11 @@
        "cls": "f_npc f_weap f_miss",
        "item": [
         "moaning-shield",
-        "morne's-great-hammer"
+        "morne's-great-hammer",
+        "morne's-helm",
+        "morne's-armor",
+        "morne's-gauntlets",
+        "morne's-leggings"
        ],
        "html": "If <a href=\"https://darksouls3.wiki.fextralife.com/Eygon+of+Carim\">Eygon of Carim</a> has left Firelink Shrine, his dead body can now be found in Irina's original cell in the Undead Settlement, containing <a href=\"https://darksouls3.wiki.fextralife.com/Morne's+Great+Hammer\">Morne's Great Hammer</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Moaning+Shield\">Moaning Shield</a>. You can then purchase <a href=\"https://darksouls3.wiki.fextralife.com/Morne's+Set\">Morne's Armor Set</a> from the Shrine Handmaid"
       },
@@ -3963,7 +4195,10 @@
       {
        "id": "playthrough_18_12",
        "cls": "f_pyro f_weap",
-       "item": "witch's-locks",
+       "item": [
+        "witch's-locks",
+        "power-within"
+       ],
        "html": "Against the wall you will find a lever which will unlock a room containing <a href=\"https://darksouls3.wiki.fextralife.com/Witch's+Locks\">Witch's Locks</a> and <a href=\"https://darksouls3.wiki.fextralife.com/Power+Within\">Power Within</a>"
       },
       {
@@ -4020,7 +4255,13 @@
       {
        "id": "playthrough_18_23",
        "cls": "f_arm f_sorc",
-       "item": "soul-stream",
+       "item": [
+        "soul-stream",
+        "outrider-knight-helm",
+        "outrider-knight-armor",
+        "outrider-knight-gauntlets",
+        "outrider-knight-leggings"
+       ],
        "html": "On the same level is a wall in the back left with gates. Hit it to reveal a room with a <a href=\"https://darksouls3.wiki.fextralife.com/Boreal+Outrider+Knight\">Boreal Outrider Knight</a>. Defeat it for the <a href=\"https://darksouls3.wiki.fextralife.com/Outrider+Knight+Set\">Outrider Knight Set</a>. Exit through the back for the <a href=\"https://darksouls3.wiki.fextralife.com/Soul+Stream\">Soul Stream</a> sorcery"
       },
       {
@@ -4212,7 +4453,13 @@
       {
        "id": "playthrough_18_55",
        "cls": "f_npc f_weap f_miss",
-       "item": "sunless-talisman",
+       "item": [
+        "sunless-talisman",
+        "sunless-veil",
+        "sunless-armor",
+        "sunless-gauntlets",
+        "sunless-leggings"
+       ],
        "html": "Return to Sirris' grandfather's grave in Firelink Shrine after the Twin Princes fight and you'll find her body with the <a href=\"https://darksouls3.wiki.fextralife.com/Sunless+Talisman\">Sunless Talisman</a> on it. You can also now buy Sirris' <a href=\"https://darksouls3.wiki.fextralife.com/Sunless+Set\">Sunless Armor Set</a> from the Shrine Handmaid"
       },
       {
@@ -4227,7 +4474,10 @@
         "bountiful-sunlight",
         "crescent-moon-sword",
         "silver-mask",
-        "soul-of-rosaria"
+        "soul-of-rosaria",
+        "leonhard's-garb",
+        "leonhard's-gauntlets",
+        "leonhard's-trousers"
        ],
        "html": "Head to the Aldrich, Devourer of Gods bonfire and take either of the lifts in the room up. The <a href=\"https://darksouls3.wiki.fextralife.com/Black+Eye+Orb\">Black Eye Orb</a> will react to this room. Use it and you'll invade Leonhard's world. Kill him for <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Rosaria\">Soul of Rosaria</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Crescent+Moon+Sword\">Crescent Moon Sword</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Silver+Mask\">Silver Mask</a>. You can also now buy <a href=\"https://darksouls3.wiki.fextralife.com/Leonhard's+Set\">Leonhard's Armor Set</a> from the Shrine Handmaid. You can give the <a href=\"https://darksouls3.wiki.fextralife.com/Soul+of+Rosaria\">Soul of Rosaria</a> to Ludleth for the <a href=\"https://darksouls3.wiki.fextralife.com/Bountiful+Sunlight\">Bountiful Sunlight</a> miracle. There is no benefit to restoring Rosaria using her soul, as her being dead does not prevent you from offering pale tongues, redistributing attributes, or changing appearance"
       }
@@ -4253,7 +4503,12 @@
       {
        "id": "playthrough_19_1",
        "cls": "f_arm f_boss f_npc f_weap f_miss",
-       "item": "darkdrift",
+       "item": [
+        "darkdrift",
+        "black-dress",
+        "black-gauntlets",
+        "black-leggings"
+       ],
        "html": "If you have 8 Dark Sigils, you can summon <a href=\"https://darksouls3.wiki.fextralife.com/Yuria+of+Londor\">Yuria of Londor</a> and <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Pale+Shade\">Londor Pale Shade</a> for the Soul of Cinder fight. If Yuria survives, you will be able to pick up <a href=\"https://darksouls3.wiki.fextralife.com/Darkdrift\">Darkdrift</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Black+Set\">Black Set</a> at her usual location in Firelink Shrine"
       },
       {
@@ -4388,6 +4643,12 @@
       {
        "id": "playthrough_20_18",
        "cls": "f_ash f_misc",
+       "item": [
+        "millwood-knight-helm",
+        "millwood-knight-armor",
+        "millwood-knight-gauntlets",
+        "millwood-knight-leggings"
+       ],
        "html": "Now go to the top floor and climb up the ladder on the outside to find a <a href=\"https://darksouls3.wiki.fextralife.com/Large+Soul+of+a+Weary+Warrior\">Large Soul of a Weary Warrior</a> as well as the <a href=\"https://darksouls3.wiki.fextralife.com/Captain's+Ashes\">Captain's Ashes</a> on the rafters. Giving these ashes to the Handmaiden enables you to buy three <a href=\"https://darksouls3.wiki.fextralife.com/Refined+Gem\">Refined Gems</a>, the <a href=\"https://darksouls3.wiki.fextralife.com/Millwood+Set\">Millwood Knight Set</a>, and <a href=\"https://darksouls3.wiki.fextralife.com/Millwood+Greatarrow\">Millwood Greatarrows</a>"
       },
       {
@@ -4596,6 +4857,12 @@
       {
        "id": "playthrough_20_58",
        "cls": "f_arm",
+       "item": [
+        "slave-knight-hood",
+        "slave-knight-armor",
+        "slave-knight-gauntlets",
+        "slave-knight-leggings"
+       ],
        "html": "Climb the ladder on the other house again, enter the tower, and drop down to find the <a href=\"https://darksouls3.wiki.fextralife.com/Slave+Set\">Slave Knight Set</a>"
       },
       {
@@ -4732,6 +4999,12 @@
       {
        "id": "playthrough_20_84",
        "cls": "f_arm f_gem",
+       "item": [
+        "vilhelm's-helm",
+        "vilhelm's-armor",
+        "vilhelm's-gauntlets",
+        "vilhelm's-leggings"
+       ],
        "html": "Here you can find a <a href=\"https://darksouls3.wiki.fextralife.com/Blood+Gem\">Blood Gem</a> and <a href=\"https://darksouls3.wiki.fextralife.com/Vilhelm's+Set\">Vilhelm's Set</a>"
       },
       {
@@ -5078,6 +5351,12 @@
       {
        "id": "playthrough_22_2",
        "cls": "f_arm",
+       "item": [
+        "ruin-helm",
+        "ruin-armor",
+        "ruin-gauntlets",
+        "ruin-leggings"
+       ],
        "html": "After going down the stairs onto the bridge, take a right and go down the path to find the <a href=\"https://darksouls3.wiki.fextralife.com/Ruin+Set\">Ruin Set</a>"
       },
       {
@@ -5144,7 +5423,13 @@
       {
        "id": "playthrough_22_15",
        "cls": "f_arm f_ring f_npc f_miss",
-       "item": "wolf-ring+3",
+       "item": [
+        "wolf-ring+3",
+        "black-witch-hat",
+        "black-witch-garb",
+        "black-witch-wrappings",
+        "black-witch-trousers"
+       ],
        "html": "Enter the small garden here to be invaded by <a href=\"https://darksouls3.wiki.fextralife.com/Seeker+of+the+Spurned\">Seeker of the Spurned</a>. He will invade even if you are unembered and killing him rewards you with the <a href=\"https://darksouls3.wiki.fextralife.com/Wolf+Ring\">Wolf Ring+3</a>. Further in the back is the <a href=\"https://darksouls3.wiki.fextralife.com/Black+Witch+Set\">Black Witch Set</a>"
       },
       {
@@ -5300,6 +5585,12 @@
       {
        "id": "playthrough_22_36",
        "cls": "f_arm",
+       "item": [
+        "iron-dragonslayer-helm",
+        "iron-dragonslayer-armor",
+        "iron-dragonslayer-gauntlets",
+        "iron-dragonslayer-leggings"
+       ],
        "html": "Continue towards the back of the swamp and defeat the <a href=\"https://darksouls3.wiki.fextralife.com/Dragonslayer+Armour\">Dragonslayer Armour</a> to get the <a href=\"https://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Set\">Iron Dragonslayer Set</a>"
       },
       {
@@ -5378,6 +5669,12 @@
       {
        "id": "playthrough_22_59",
        "cls": "f_arm f_misc f_miss",
+       "item": [
+        "lapp's-helm",
+        "lapp's-armor",
+        "lapp's-gauntlets",
+        "lapp's-leggings"
+       ],
        "html": "Go to where Lapp was before to find <a href=\"https://darksouls3.wiki.fextralife.com/Champion's+Bones\">Champion's Bones</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Lapp's+Set\">Lapp's Set</a> (the bones will only be there if you haven't already gotten them from the Ashes of Ariandel DLC)"
       },
       {
@@ -5420,6 +5717,7 @@
       {
        "id": "playthrough_22_67",
        "cls": "f_arm",
+       "item": "antiquated-plain-garb",
        "html": "Take the ladder down to find the <a href=\"https://darksouls3.wiki.fextralife.com/Antiquated+Plain+Set\">Antiquated Plain Set</a>"
       },
       {
@@ -5486,6 +5784,12 @@
       {
        "id": "playthrough_22_79",
        "cls": "f_arm",
+       "item": [
+        "shira's-crown",
+        "shira's-armor",
+        "shira's-gloves",
+        "shira's-trousers"
+       ],
        "html": "After killing Shira go back to where you first met her to find the door now open and <a href=\"https://darksouls3.wiki.fextralife.com/Shira's+Set\">Shira's Set</a> inside"
       },
       {
@@ -5543,6 +5847,7 @@
       {
        "id": "checklist_1_2",
        "cls": "",
+       "item": "call-over",
        "html": "<strong>Call Over</strong>: Received after trading a <a href=\"https://darksouls3.wiki.fextralife.com/Homeward+Bone\">Homeward Bone</a> with <a href=\"https://darksouls3.wiki.fextralife.com/Pickle+Pee,+Pump-a-Rum+Crow\">Pickle Pee, Pump-a-Rum Crow</a>"
       },
       {
@@ -5822,6 +6127,10 @@
       {
        "id": "checklist_2_29",
        "cls": "",
+       "item": [
+        "chameleon-a",
+        "chameleon-b"
+       ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Chameleon\">Chameleon</a>: Found in the Church of Yorshka bonfire in <a href=\"https://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley\">Irithyll of the Boreal Valley</a> during Anri's questline. The spell will drop from an assassin disguised as a statue. Found in Darkmoon Tomb on the pilgrim's corpse"
       },
       {
@@ -5955,6 +6264,7 @@
       {
        "id": "checklist_3_19",
        "cls": "",
+       "item": "power-within",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Power%20Within\">Power Within</a>: Found on a corpse behind a hidden wall in <a href=\"https://darksouls3.wiki.fextralife.com/Grand+Archives\">Grand Archives</a>"
       },
       {
@@ -6443,6 +6753,10 @@
         {
          "id": "checklist_5_28",
          "cls": "",
+         "item": [
+          "young-dragon-ring-a",
+          "young-dragon-ring-b"
+         ],
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Young+Dragon+Ring\">Young Dragon Ring</a>: Given by Orbeck of Vinheim after returning a scroll and buying 3 sorceries"
         },
         {
@@ -6460,6 +6774,7 @@
         {
          "id": "checklist_5_31",
          "cls": "",
+         "item": "witch's-ring",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Witch's+ring\">Witch's Ring</a>: On an alter at the end of the hallway just before the Abandoned Tomb bonfire in the Catacombs of Carthus"
         },
         {
@@ -6518,11 +6833,19 @@
         {
          "id": "checklist_5_41",
          "cls": "",
+         "item": [
+          "knight-slayer's-ring-a",
+          "knight-slayer's-ring-b"
+         ],
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Knight+Slayer's+Ring\">Knight Slayer's Ring</a>: Obtained by killing the phantom invader <a href=\"https://darksouls3.wiki.fextralife.com/Knight%20Slayer+Tsorig\">Knight Slayer Tsorig</a> near the bridge in the Catacombs of Carthus"
         },
         {
          "id": "checklist_5_42",
          "cls": "",
+         "item": [
+          "ring-of-the-evil-eye-a",
+          "ring-of-the-evil-eye-b"
+         ],
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye\">Ring of the Evil Eye</a>: Given by Anri of Astora either in the Catacombs of Carthus (if you tell of Horace's location) or at the Church of Yorshka bonfire. You must have first talked to Anri at the Halfway Fortress bonfire, then at Firelink, then in two places in the Catacombs of Carthus"
         },
         {
@@ -6644,6 +6967,10 @@
         {
          "id": "checklist_5_63",
          "cls": "",
+         "item": [
+          "slumbering-dragoncrest-ring-a",
+          "slumbering-dragoncrest-ring-b"
+         ],
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Slumbering+Dragoncrest+Ring\">Slumbering Dragoncrest Ring</a>: Given by Orbeck of Vinheim after buying Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook"
         },
         {
@@ -6664,6 +6991,10 @@
         {
          "id": "checklist_5_67",
          "cls": "",
+         "item": [
+          "reversal-ring-a",
+          "reversal-ring-b"
+         ],
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Reversal+Ring\">Reversal Ring</a>: In the Darkmoon Tomb right before entering Anor Londo"
         },
         {
@@ -9129,6 +9460,7 @@
       {
        "id": "armors_1_18",
        "cls": "",
+       "item": "brigand-hood",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Brigand+Hood\">Brigand Hood</a>"
       },
       {
@@ -9144,6 +9476,7 @@
       {
        "id": "armors_1_8",
        "cls": "",
+       "item": "northern-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Northern+Helm\">Northern Helm</a>"
       },
       {
@@ -9159,6 +9492,7 @@
       {
        "id": "armors_1_48",
        "cls": "",
+       "item": "sellsword-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sellsword+Helm\">Sellsword Helm</a>"
       },
       {
@@ -9169,6 +9503,7 @@
       {
        "id": "armors_1_84",
        "cls": "",
+       "item": "shira's-crown",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Shira's+Crown\">Shira's Crown</a>"
       },
       {
@@ -9179,6 +9514,7 @@
       {
        "id": "armors_1_45",
        "cls": "",
+       "item": "herald-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Herald+Helm\">Herald Helm</a>"
       },
       {
@@ -9189,11 +9525,13 @@
       {
        "id": "armors_1_21",
        "cls": "",
+       "item": "nameless-knight-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Nameless+Knight+Helm\">Nameless Knight Helm</a>"
       },
       {
        "id": "armors_1_19",
        "cls": "",
+       "item": "fallen-knight-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Fallen+Knight+Helm\">Fallen Knight Helm</a>"
       },
       {
@@ -9204,11 +9542,13 @@
       {
        "id": "armors_1_73",
        "cls": "",
+       "item": "alva-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Alva+Helm\">Alva Helm</a>"
       },
       {
        "id": "armors_1_68",
        "cls": "",
+       "item": "drakeblood-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Drakeblood+Helm\">Drakeblood Helm</a>"
       },
       {
@@ -9219,26 +9559,34 @@
       {
        "id": "armors_1_60",
        "cls": "",
+       "item": "sunset-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunset+Helm\">Sunset Helm</a>"
       },
       {
        "id": "armors_1_58",
        "cls": "",
+       "item": "sunless-veil",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunless+Veil\">Sunless Veil</a>"
       },
       {
        "id": "armors_1_33",
        "cls": "",
+       "item": [
+        "brass-helm-b",
+        "brass-helm-a"
+       ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Brass+Helm\">Brass Helm</a>"
       },
       {
        "id": "armors_1_81",
        "cls": "",
+       "item": "slave-knight-hood",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Slave+Knight+Hood\">Slave Knight Hood</a>"
       },
       {
        "id": "armors_1_82",
        "cls": "",
+       "item": "vilhelm's-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Vilhelm's+Helm\">Vilhelm's Helm</a>"
       },
       {
@@ -9254,21 +9602,25 @@
       {
        "id": "armors_1_72",
        "cls": "",
+       "item": "helm-of-thorns",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Helm+of+Thorns\">Helm of Thorns</a>"
       },
       {
        "id": "armors_1_25",
        "cls": "",
+       "item": "catarina-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Catarina+Helm\">Catarina Helm</a>"
       },
       {
        "id": "armors_1_7",
        "cls": "",
+       "item": "morne's-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Morne's+Helm\">Morne's Helm</a>"
       },
       {
        "id": "armors_1_90",
        "cls": "",
+       "item": "lapp's-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Lapp's+Helm\">Lapp's Helm</a>"
       },
       {
@@ -9284,21 +9636,25 @@
       {
        "id": "armors_1_39",
        "cls": "",
+       "item": "winged-knight-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Winged+Knight+Helm\">Winged Knight Helm</a>"
       },
       {
        "id": "armors_1_80",
        "cls": "",
+       "item": "millwood-knight-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Millwood+Knight+Helm\">Millwood Knight Helm</a>"
       },
       {
        "id": "armors_1_88",
        "cls": "",
+       "item": "ruin-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Ruin+Helm\">Ruin Helm</a>"
       },
       {
        "id": "armors_1_44",
        "cls": "",
+       "item": "outrider-knight-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Outrider+Knight+Helm\">Outrider Knight Helm</a>"
       },
       {
@@ -9339,11 +9695,13 @@
       {
        "id": "armors_1_50",
        "cls": "",
+       "item": "dragonslayer-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Dragonslayer+Helm\">Dragonslayer Helm</a>"
       },
       {
        "id": "armors_1_43",
        "cls": "",
+       "item": "wolf-knight-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Wolf+Knight+Helm\">Wolf Knight Helm</a>"
       },
       {
@@ -9354,6 +9712,7 @@
       {
        "id": "armors_1_89",
        "cls": "",
+       "item": "iron-dragonslayer-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Helm\">Iron Dragonslayer Helm</a>"
       },
       {
@@ -9374,11 +9733,13 @@
       {
        "id": "armors_1_29",
        "cls": "",
+       "item": "black-iron-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Iron+Helm\">Black Iron Helm</a>"
       },
       {
        "id": "armors_1_30",
        "cls": "",
+       "item": "executioner-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Executioner+Helm\">Executioner Helm</a>"
       },
       {
@@ -9394,6 +9755,7 @@
       {
        "id": "armors_1_66",
        "cls": "",
+       "item": "havel's-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Havel's+Helm\">Havel's Helm</a>"
       },
       {
@@ -9414,6 +9776,7 @@
       {
        "id": "armors_1_37",
        "cls": "",
+       "item": "shadow-mask",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Shadow+Mask\">Shadow Mask</a>"
       },
       {
@@ -9435,21 +9798,25 @@
       {
        "id": "armors_1_34",
        "cls": "",
+       "item": "painting-guardian-hood",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Painting+Guardian+Hood\">Painting Guardian Hood</a>"
       },
       {
        "id": "armors_1_47",
        "cls": "",
+       "item": "sorcerer-hood",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sorcerer+Hood\">Sorcerer Hood</a>"
       },
       {
        "id": "armors_1_71",
        "cls": "",
+       "item": "old-sorcerer-hat",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Old+Sorcerer+Hat\">Old Sorcerer Hat</a>"
       },
       {
        "id": "armors_1_32",
        "cls": "",
+       "item": "court-sorcerer-hood",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Court+Sorcerer+Hood\">Court Sorcerer Hood</a>"
       },
       {
@@ -9460,6 +9827,7 @@
       {
        "id": "armors_1_85",
        "cls": "",
+       "item": "black-witch-hat",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Witch+Hat\">Black Witch Hat</a>"
       },
       {
@@ -9498,6 +9866,7 @@
       {
        "id": "armors_1_69",
        "cls": "",
+       "item": "conjurator-hood",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Conjurator+Hood\">Conjurator Hood</a>"
       },
       {
@@ -9509,11 +9878,13 @@
       {
        "id": "armors_1_2",
        "cls": "",
+       "item": "cleric-hat",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Cleric+Hat\">Cleric Hat</a>"
       },
       {
        "id": "armors_1_24",
        "cls": "",
+       "item": "maiden-hood",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Maiden+Hood\">Maiden Hood</a>"
       },
       {
@@ -9529,6 +9900,7 @@
       {
        "id": "armors_1_57",
        "cls": "",
+       "item": "archdeacon-white-crown",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Archdeacon+White+Crown\">Archdeacon White Crown</a>"
       },
       {
@@ -9539,6 +9911,7 @@
       {
        "id": "armors_1_38",
        "cls": "",
+       "item": "hood-of-prayer",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Hood+of+Prayer\">Hood of Prayer</a>"
       },
       {
@@ -9611,11 +9984,13 @@
       {
        "id": "armors_2_21",
        "cls": "",
+       "item": "brigand-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Brigand+Armor\">Brigand Armor</a>"
       },
       {
        "id": "armors_2_20",
        "cls": "",
+       "item": "mirrah-vest",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Mirrah+Vest\">Mirrah Vest</a>"
       },
       {
@@ -9626,11 +10001,13 @@
       {
        "id": "armors_2_8",
        "cls": "",
+       "item": "northern-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Northern+Armor\">Northern Armor</a>"
       },
       {
        "id": "armors_2_73",
        "cls": "",
+       "item": "mirrah-chain-mail",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Mirrah+Chain+Mail\">Mirrah Chain Mail</a>"
       },
       {
@@ -9641,11 +10018,13 @@
       {
        "id": "armors_2_68",
        "cls": "",
+       "item": "sellsword-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sellsword+Armor\">Sellsword Armor</a>"
       },
       {
        "id": "armors_2_31",
        "cls": "",
+       "item": "drang-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Drang+Armor\">Drang Armor</a>"
       },
       {
@@ -9656,6 +10035,7 @@
       {
        "id": "armors_2_85",
        "cls": "",
+       "item": "shira's-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Shira's+Armor\">Shira's Armor</a>"
       },
       {
@@ -9666,6 +10046,7 @@
       {
        "id": "armors_2_15",
        "cls": "",
+       "item": "herald-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Herald+Armor\">Herald Armor</a>"
       },
       {
@@ -9676,11 +10057,13 @@
       {
        "id": "armors_2_23",
        "cls": "",
+       "item": "nameless-knight-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Nameless+Knight+Armor\">Nameless Knight Armor</a>"
       },
       {
        "id": "armors_2_17",
        "cls": "",
+       "item": "fallen-knight-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Fallen+Knight+Armor\">Fallen Knight Armor</a>"
       },
       {
@@ -9691,11 +10074,13 @@
       {
        "id": "armors_2_77",
        "cls": "",
+       "item": "alva-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Alva+Armor\">Alva Armor</a>"
       },
       {
        "id": "armors_2_19",
        "cls": "",
+       "item": "drakeblood-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Drakeblood+Armor\">Drakeblood Armor</a>"
       },
       {
@@ -9706,26 +10091,34 @@
       {
        "id": "armors_2_62",
        "cls": "",
+       "item": "sunset-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunset+Armor\">Sunset Armor</a>"
       },
       {
        "id": "armors_2_59",
        "cls": "",
+       "item": "sunless-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunless+Armor\">Sunless Armor</a>"
       },
       {
        "id": "armors_2_37",
        "cls": "",
+       "item": [
+        "brass-armor-b",
+        "brass-armor-a"
+       ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Brass+Armor\">Brass Armor</a>"
       },
       {
        "id": "armors_2_82",
        "cls": "",
+       "item": "slave-knight-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Slave+Knight+Armor\">Slave Knight Armor</a>"
       },
       {
        "id": "armors_2_83",
        "cls": "",
+       "item": "vilhelm's-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Vilhelm's+Armor\">Vilhelm's Armor</a>"
       },
       {
@@ -9741,21 +10134,25 @@
       {
        "id": "armors_2_75",
        "cls": "",
+       "item": "armor-of-thorns",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Armor+of+Thorns\">Armor of Thorns</a>"
       },
       {
        "id": "armors_2_27",
        "cls": "",
+       "item": "catarina-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Catarina+Armor\">Catarina Armor</a>"
       },
       {
        "id": "armors_2_7",
        "cls": "",
+       "item": "morne's-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Morne's+Armor\">Morne's Armor</a>"
       },
       {
        "id": "armors_2_91",
        "cls": "",
+       "item": "lapp's-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Lapp's+Armor\">Lapp's Armor</a>"
       },
       {
@@ -9771,11 +10168,13 @@
       {
        "id": "armors_2_41",
        "cls": "",
+       "item": "winged-knight-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Winged+Knight+Armor\">Winged Knight Armor</a>"
       },
       {
        "id": "armors_2_81",
        "cls": "",
+       "item": "millwood-knight-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Millwood+Knight+Armor\">Millwood Knight Armor</a>"
       },
       {
@@ -9786,11 +10185,13 @@
       {
        "id": "armors_2_88",
        "cls": "",
+       "item": "ruin-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Ruin+Armor\">Ruin Armor</a>"
       },
       {
        "id": "armors_2_49",
        "cls": "",
+       "item": "outrider-knight-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Outrider+Knight+Armor\">Outrider Knight Armor</a>"
       },
       {
@@ -9831,11 +10232,13 @@
       {
        "id": "armors_2_50",
        "cls": "",
+       "item": "dragonslayer-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Dragonslayer+Armor\">Dragonslayer Armor</a>"
       },
       {
        "id": "armors_2_46",
        "cls": "",
+       "item": "wolf-knight-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Wolf+Knight+Armor\">Wolf Knight Armor</a>"
       },
       {
@@ -9846,6 +10249,7 @@
       {
        "id": "armors_2_90",
        "cls": "",
+       "item": "iron-dragonslayer-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Armor\">Iron Dragonslayer Armor</a>"
       },
       {
@@ -9866,11 +10270,13 @@
       {
        "id": "armors_2_33",
        "cls": "",
+       "item": "black-iron-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Iron+Armor\">Black Iron Armor</a>"
       },
       {
        "id": "armors_2_34",
        "cls": "",
+       "item": "executioner-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Executioner+Armor\">Executioner Armor</a>"
       },
       {
@@ -9886,6 +10292,7 @@
       {
        "id": "armors_2_69",
        "cls": "",
+       "item": "havel's-armor",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Havel's+Amor\">Havel's Armor</a>"
       },
       {
@@ -9906,36 +10313,43 @@
       {
        "id": "armors_2_40",
        "cls": "",
+       "item": "shadow-garb",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Shadow+Garb\">Shadow Garb</a>"
       },
       {
        "id": "armors_2_57",
        "cls": "",
+       "item": "leonhard's-garb",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Leonhard's+Garb\">Leonhard's Garb</a>"
       },
       {
        "id": "armors_2_78",
        "cls": "",
+       "item": "pale-shade-robe",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Pale+Shade+Robe\">Pale Shade Robe</a>"
       },
       {
        "id": "armors_2_52",
        "cls": "",
+       "item": "black-dress",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Dress\">Black Dress</a>"
       },
       {
        "id": "armors_2_38",
        "cls": "",
+       "item": "painting-guardian-gown",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Painting+Guardian+Gown\">Painting Guardian Gown</a>"
       },
       {
        "id": "armors_2_93",
        "cls": "",
+       "item": "antiquated-plain-garb",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Antiquated+Plain+Garb\">Antiquated Plain Garb</a>"
       },
       {
        "id": "armors_2_30",
        "cls": "",
+       "item": "sorcerer-robe",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sorcerer+Robe\">Sorcerer Robe</a>"
       },
       {
@@ -9947,11 +10361,13 @@
       {
        "id": "armors_2_74",
        "cls": "",
+       "item": "old-sorcerer-coat",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Old+Sorcerer+Coat\">Old Sorcerer Coat</a>"
       },
       {
        "id": "armors_2_36",
        "cls": "",
+       "item": "court-sorcerer-robe",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Court+Sorcerer+Robe\">Court Sorcerer Robe</a>"
       },
       {
@@ -9962,11 +10378,13 @@
       {
        "id": "armors_2_86",
        "cls": "",
+       "item": "black-witch-garb",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Witch+Garb\">Black Witch Garb</a>"
       },
       {
        "id": "armors_2_76",
        "cls": "",
+       "item": "antiquated-dress",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Antiquated+Dress\">Antiquated Dress</a>"
       },
       {
@@ -9987,11 +10405,13 @@
       {
        "id": "armors_2_56",
        "cls": "",
+       "item": "cornyx's-garb",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Cornyx's+Garb\">Cornyx's Garb</a>"
       },
       {
        "id": "armors_2_72",
        "cls": "",
+       "item": "conjurator-robe",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Conjurator+Robe\">Conjurator Robe</a>"
       },
       {
@@ -10003,11 +10423,13 @@
       {
        "id": "armors_2_2",
        "cls": "",
+       "item": "cleric-blue-robe",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Cleric+Blue+Robe\">Cleric Blue Robe</a>"
       },
       {
        "id": "armors_2_25",
        "cls": "",
+       "item": "maiden-robe",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Maiden+Robe\">Maiden Robe</a>"
       },
       {
@@ -10028,6 +10450,7 @@
       {
        "id": "armors_2_58",
        "cls": "",
+       "item": "archdeacon-holy-garb",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Archdeacon+Holy+Garb\">Archdeacon Holy Garb</a>"
       },
       {
@@ -10038,16 +10461,19 @@
       {
        "id": "armors_2_16",
        "cls": "",
+       "item": "robe-of-prayer",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Robe+of+Prayer\">Robe of Prayer</a>"
       },
       {
        "id": "armors_2_29",
        "cls": "",
+       "item": "fire-keeper-robe",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Fire+Keeper+Robe\">Fire Keeper Robe</a>"
       },
       {
        "id": "armors_2_11",
        "cls": "",
+       "item": "master's-attire",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Master's+Attire\">Master's Attire</a>"
       },
       {
@@ -10086,11 +10512,13 @@
       {
        "id": "armors_3_14",
        "cls": "",
+       "item": "brigand-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Brigand+Gauntlets\">Brigand Gauntlets</a>"
       },
       {
        "id": "armors_3_12",
        "cls": "",
+       "item": "mirrah-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Mirrah+Gloves\">Mirrah Gloves</a>"
       },
       {
@@ -10101,26 +10529,31 @@
       {
        "id": "armors_3_9",
        "cls": "",
+       "item": "northern-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Northern+Gloves\">Northern Gloves</a>"
       },
       {
        "id": "armors_3_63",
        "cls": "",
+       "item": "mirrah-chain-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Mirrah+Chain+Gloves\">Mirrah Chain Gloves</a>"
       },
       {
        "id": "armors_3_44",
        "cls": "",
+       "item": "iron-bracelets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Iron+Bracelets\">Iron Bracelets</a>"
       },
       {
        "id": "armors_3_71",
        "cls": "",
+       "item": "sellsword-gauntlet",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sellsword+Gauntlet\">Sellsword Gauntlet</a>"
       },
       {
        "id": "armors_3_23",
        "cls": "",
+       "item": "drang-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Drang+Gauntlets\">Drang Gauntlets</a>"
       },
       {
@@ -10131,6 +10564,7 @@
       {
        "id": "armors_3_77",
        "cls": "",
+       "item": "shira's-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Shira's+Gloves\">Shira's Gloves</a>"
       },
       {
@@ -10141,6 +10575,7 @@
       {
        "id": "armors_3_42",
        "cls": "",
+       "item": "herald-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Herald+Gloves\">Herald Gloves</a>"
       },
       {
@@ -10151,11 +10586,13 @@
       {
        "id": "armors_3_16",
        "cls": "",
+       "item": "nameless-knight-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Nameless+Knight+Gauntlets\">Nameless Knight Gauntlets</a>"
       },
       {
        "id": "armors_3_15",
        "cls": "",
+       "item": "fallen-knight-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Fallen+Knight+Gauntlets\">Fallen Knight Gauntlets</a>"
       },
       {
@@ -10166,11 +10603,13 @@
       {
        "id": "armors_3_66",
        "cls": "",
+       "item": "alva-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Alva+Gauntlets\">Alva Gauntlets</a>"
       },
       {
        "id": "armors_3_6",
        "cls": "",
+       "item": "drakeblood-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Drakeblood+Gauntlets\">Drakeblood Gauntlets</a>"
       },
       {
@@ -10181,26 +10620,34 @@
       {
        "id": "armors_3_54",
        "cls": "",
+       "item": "sunset-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunset+Gauntlets\">Sunset Gauntlets</a>"
       },
       {
        "id": "armors_3_53",
        "cls": "",
+       "item": "sunless-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunless+Gauntlets\">Sunless Gauntlets</a>"
       },
       {
        "id": "armors_3_29",
        "cls": "",
+       "item": [
+        "brass-gauntlets-b",
+        "brass-gauntlets-a"
+       ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Brass+Gauntlets\">Brass Gauntlets</a>"
       },
       {
        "id": "armors_3_75",
        "cls": "",
+       "item": "slave-knight-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Slave+Knight+Gauntlets\">Slave Knight Gauntlets</a>"
       },
       {
        "id": "armors_3_76",
        "cls": "",
+       "item": "vilhelm's-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Vilhelm's+Gauntlets\">Vilhelm's Gauntlets</a>"
       },
       {
@@ -10216,21 +10663,25 @@
       {
        "id": "armors_3_64",
        "cls": "",
+       "item": "gauntlets-of-thorns",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Gauntlets+of+Thorns\">Gauntlets of Thorns</a>"
       },
       {
        "id": "armors_3_19",
        "cls": "",
+       "item": "catarina-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Catarina+Gauntlets\">Catarina Gauntlets</a>"
       },
       {
        "id": "armors_3_8",
        "cls": "",
+       "item": "morne's-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Morne's+Gauntlets\">Morne's Gauntlets</a>"
       },
       {
        "id": "armors_3_83",
        "cls": "",
+       "item": "lapp's-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Lapp's+Gauntlets\">Lapp's Gauntlets</a>"
       },
       {
@@ -10246,11 +10697,13 @@
       {
        "id": "armors_3_33",
        "cls": "",
+       "item": "winged-knight-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Winged+Knight+Gauntlets\">Winged Knight Gauntlets</a>"
       },
       {
        "id": "armors_3_74",
        "cls": "",
+       "item": "millwood-knight-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Millwood+Knight+Gauntlets\">Millwood Knight Gauntlets</a>"
       },
       {
@@ -10261,11 +10714,13 @@
       {
        "id": "armors_3_80",
        "cls": "",
+       "item": "ruin-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Ruin+Gauntlets\">Ruin Gauntlets</a>"
       },
       {
        "id": "armors_3_41",
        "cls": "",
+       "item": "outrider-knight-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Outrider+Knight+Gauntlets\">Outrider Knight Gauntlets</a>"
       },
       {
@@ -10306,11 +10761,13 @@
       {
        "id": "armors_3_45",
        "cls": "",
+       "item": "dragonslayer-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Dragonslayer+Gauntlets\">Dragonslayer Gauntlets</a>"
       },
       {
        "id": "armors_3_39",
        "cls": "",
+       "item": "wolf-knight-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Wolf+Knight+Gauntlets\">Wolf Knight Gauntlets</a>"
       },
       {
@@ -10321,6 +10778,7 @@
       {
        "id": "armors_3_82",
        "cls": "",
+       "item": "iron-dragonslayer-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Gauntlets\">Iron Dragonslayer Gauntlets</a>"
       },
       {
@@ -10341,11 +10799,13 @@
       {
        "id": "armors_3_25",
        "cls": "",
+       "item": "black-iron-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Iron+Gauntlets\">Black Iron Gauntlets</a>"
       },
       {
        "id": "armors_3_26",
        "cls": "",
+       "item": "executioner-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Executioner+Gauntlets\">Executioner Gauntlets</a>"
       },
       {
@@ -10361,6 +10821,7 @@
       {
        "id": "armors_3_59",
        "cls": "",
+       "item": "havel's-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Havel's+Gauntlets\">Havel's Gauntlets</a>"
       },
       {
@@ -10376,26 +10837,31 @@
       {
        "id": "armors_3_32",
        "cls": "",
+       "item": "shadow-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Shadow+Gauntlets\">Shadow Gauntlets</a>"
       },
       {
        "id": "armors_3_51",
        "cls": "",
+       "item": "leonhard's-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Leonhard's+Gauntlets\">Leonhard's Gauntlets</a>"
       },
       {
        "id": "armors_3_67",
        "cls": "",
+       "item": "pale-shade-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Pale+Shade+Gloves\">Pale Shade Gloves</a>"
       },
       {
        "id": "armors_3_48",
        "cls": "",
+       "item": "black-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Gauntlets\">Black Gauntlets</a>"
       },
       {
        "id": "armors_3_30",
        "cls": "",
+       "item": "painting-guardian-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Painting+Guardian+Gloves\">Painting Guardian Gloves</a>"
       },
       {
@@ -10406,16 +10872,19 @@
       {
        "id": "armors_3_22",
        "cls": "",
+       "item": "sorcerer-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sorcerer+Gloves\">Sorcerer Gloves</a>"
       },
       {
        "id": "armors_3_65",
        "cls": "",
+       "item": "old-sorcerer-gauntlets",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Old+Sorcerer+Gauntlets\">Old Sorcerer Gauntlets</a>"
       },
       {
        "id": "armors_3_28",
        "cls": "",
+       "item": "court-sorcerer-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Court+Sorcerer+Gloves\">Court Sorcerer Gloves</a>"
       },
       {
@@ -10426,11 +10895,13 @@
       {
        "id": "armors_3_78",
        "cls": "",
+       "item": "black-witch-wrappings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Witch+Wrappings\">Black Witch Wrappings</a>"
       },
       {
        "id": "armors_3_68",
        "cls": "",
+       "item": "antiquated-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Antiquated+Gloves\">Antiquated Gloves</a>"
       },
       {
@@ -10446,11 +10917,13 @@
       {
        "id": "armors_3_50",
        "cls": "",
+       "item": "cornyx's-wrap",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Cornyx's+Wrap\">Cornyx's Wrap</a>"
       },
       {
        "id": "armors_3_62",
        "cls": "",
+       "item": "conjurator-manchettes",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Conjurator+Manchettes\">Conjurator Manchettes</a>"
       },
       {
@@ -10462,11 +10935,13 @@
       {
        "id": "armors_3_2",
        "cls": "",
+       "item": "cleric-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Cleric+Gloves\">Cleric Gloves</a>"
       },
       {
        "id": "armors_3_17",
        "cls": "",
+       "item": "maiden-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Maiden+Gloves\">Maiden Gloves</a>"
       },
       {
@@ -10482,11 +10957,13 @@
       {
        "id": "armors_3_21",
        "cls": "",
+       "item": "fire-keeper-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Fire+Keeper+Gloves\">Fire Keeper Gloves</a>"
       },
       {
        "id": "armors_3_18",
        "cls": "",
+       "item": "master's-gloves",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Master's+Gloves\">Master's Gloves</a>"
       },
       {
@@ -10520,11 +10997,13 @@
       {
        "id": "armors_4_15",
        "cls": "",
+       "item": "brigand-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Brigand+Trousers\">Brigand Trousers</a>"
       },
       {
        "id": "armors_4_13",
        "cls": "",
+       "item": "mirrah-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Mirrah+Trousers\">Mirrah Trousers</a>"
       },
       {
@@ -10535,11 +11014,13 @@
       {
        "id": "armors_4_6",
        "cls": "",
+       "item": "northern-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Northern+Trousers\">Northern Trousers</a>"
       },
       {
        "id": "armors_4_14",
        "cls": "",
+       "item": "mirrah-chain-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Mirrah+Chain+Leggings\">Mirrah Chain Leggings</a>"
       },
       {
@@ -10550,11 +11031,13 @@
       {
        "id": "armors_4_75",
        "cls": "",
+       "item": "sellsword-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sellsword+Trousers\">Sellsword Trousers</a>"
       },
       {
        "id": "armors_4_24",
        "cls": "",
+       "item": "drang-shoes",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Drang+Shoes\">Drang Shoes</a>"
       },
       {
@@ -10565,6 +11048,7 @@
       {
        "id": "armors_4_82",
        "cls": "",
+       "item": "shira's-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Shira's+Trousers\">Shira's Trousers</a>"
       },
       {
@@ -10575,6 +11059,7 @@
       {
        "id": "armors_4_45",
        "cls": "",
+       "item": "herald-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Herald+Trousers\">Herald Trousers</a>"
       },
       {
@@ -10585,11 +11070,13 @@
       {
        "id": "armors_4_18",
        "cls": "",
+       "item": "nameless-knight-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Nameless+Knight+Leggings\">Nameless Knight Leggings</a>"
       },
       {
        "id": "armors_4_16",
        "cls": "",
+       "item": "fallen-knight-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Fallen+Knight+Trousers\">Fallen Knight Trousers</a>"
       },
       {
@@ -10600,11 +11087,13 @@
       {
        "id": "armors_4_70",
        "cls": "",
+       "item": "alva-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Alva+Leggings\">Alva Leggings</a>"
       },
       {
        "id": "armors_4_65",
        "cls": "",
+       "item": "drakeblood-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Drakeblood+Leggings\">Drakeblood Leggings</a>"
       },
       {
@@ -10615,26 +11104,34 @@
       {
        "id": "armors_4_59",
        "cls": "",
+       "item": "sunset-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunset+Leggings\">Sunset Leggings</a>"
       },
       {
        "id": "armors_4_56",
        "cls": "",
+       "item": "sunless-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunless+Leggings\">Sunless Leggings</a>"
       },
       {
        "id": "armors_4_32",
        "cls": "",
+       "item": [
+        "brass-leggings-b",
+        "brass-leggings-a"
+       ],
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Brass+Leggings\">Brass Leggings</a>"
       },
       {
        "id": "armors_4_79",
        "cls": "",
+       "item": "slave-knight-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Slave+Knight+Leggings\">Slave Knight Leggings</a>"
       },
       {
        "id": "armors_4_80",
        "cls": "",
+       "item": "vilhelm's-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Vilhelm's+Leggings\">Vilhelm's Leggings</a>"
       },
       {
@@ -10650,21 +11147,25 @@
       {
        "id": "armors_4_68",
        "cls": "",
+       "item": "leggings-of-thorns",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Leggings+of+Thorns\">Leggings of Thorns</a>"
       },
       {
        "id": "armors_4_20",
        "cls": "",
+       "item": "catarina-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Catarina+Leggings\">Catarina Leggings</a>"
       },
       {
        "id": "armors_4_11",
        "cls": "",
+       "item": "morne's-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Morne's+Leggings\">Morne's Leggings</a>"
       },
       {
        "id": "armors_4_88",
        "cls": "",
+       "item": "lapp's-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Lapp's+Leggings\">Lapp's Leggings</a>"
       },
       {
@@ -10680,11 +11181,13 @@
       {
        "id": "armors_4_72",
        "cls": "",
+       "item": "winged-knight-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Winged+Knight+Leggings\">Winged Knight Leggings</a>"
       },
       {
        "id": "armors_4_78",
        "cls": "",
+       "item": "millwood-knight-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Millwood+Knight+Leggings\">Millwood Knight Leggings</a>"
       },
       {
@@ -10695,11 +11198,13 @@
       {
        "id": "armors_4_85",
        "cls": "",
+       "item": "ruin-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Ruin+Leggings\">Ruin Leggings</a>"
       },
       {
        "id": "armors_4_44",
        "cls": "",
+       "item": "outrider-knight-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Outrider+Knight+Leggings\">Outrider Knight Leggings</a>"
       },
       {
@@ -10740,11 +11245,13 @@
       {
        "id": "armors_4_49",
        "cls": "",
+       "item": "dragonslayer-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Dragonslayer+Leggings\">Dragonslayer Leggings</a>"
       },
       {
        "id": "armors_4_43",
        "cls": "",
+       "item": "wolf-knight-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Wolf+Knight+Leggings\">Wolf Knight Leggings</a>"
       },
       {
@@ -10755,6 +11262,7 @@
       {
        "id": "armors_4_87",
        "cls": "",
+       "item": "iron-dragonslayer-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Leggings\">Iron Dragonslayer Leggings</a>"
       },
       {
@@ -10775,11 +11283,13 @@
       {
        "id": "armors_4_29",
        "cls": "",
+       "item": "black-iron-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Iron+Leggings\">Black Iron Leggings</a>"
       },
       {
        "id": "armors_4_28",
        "cls": "",
+       "item": "executioner-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Executioner+Leggings\">Executioner Leggings</a>"
       },
       {
@@ -10795,6 +11305,7 @@
       {
        "id": "armors_4_62",
        "cls": "",
+       "item": "havel's-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Havel's+Leggings\">Havel's Leggings</a>"
       },
       {
@@ -10810,41 +11321,49 @@
       {
        "id": "armors_4_36",
        "cls": "",
+       "item": "shadow-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Shadow+Leggings\">Shadow Leggings</a>"
       },
       {
        "id": "armors_4_53",
        "cls": "",
+       "item": "leonhard's-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Leonhard's+Trousers\">Leonhard's Trousers</a>"
       },
       {
        "id": "armors_4_71",
        "cls": "",
+       "item": "pale-shade-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Pale+Shade+Trousers\">Pale Shade Trousers</a>"
       },
       {
        "id": "armors_4_50",
        "cls": "",
+       "item": "black-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Leggings\">Black Leggings</a>"
       },
       {
        "id": "armors_4_33",
        "cls": "",
+       "item": "painting-guardian-waistcloth",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Painting+Guardian+Waistcloth\">Painting Guardian Waistcloth</a>"
       },
       {
        "id": "armors_4_47",
        "cls": "",
+       "item": "sorcerer-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sorcerer+Trousers\">Sorcerer Trousers</a>"
       },
       {
        "id": "armors_4_69",
        "cls": "",
+       "item": "old-sorcerer-boots",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Old+Sorcerer+Boots\">Old Sorcerer Boots</a>"
       },
       {
        "id": "armors_4_31",
        "cls": "",
+       "item": "court-sorcerer-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Court+Sorcerer+Trousers\">Court Sorcerer Trousers</a>"
       },
       {
@@ -10855,11 +11374,13 @@
       {
        "id": "armors_4_83",
        "cls": "",
+       "item": "black-witch-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Black+Witch+Trousers\">Black Witch Trousers</a>"
       },
       {
        "id": "armors_4_73",
        "cls": "",
+       "item": "antiquated-skirt",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Antiquated+Skirt\">Antiquated Skirt</a>"
       },
       {
@@ -10875,11 +11396,13 @@
       {
        "id": "armors_4_52",
        "cls": "",
+       "item": "cornyx's-skirt",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Cornyx's+Skirt\">Cornyx's Skirt</a>"
       },
       {
        "id": "armors_4_67",
        "cls": "",
+       "item": "conjurator-boots",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Conjurator+Boots\">Conjurator Boots</a>"
       },
       {
@@ -10891,11 +11414,13 @@
       {
        "id": "armors_4_2",
        "cls": "",
+       "item": "cleric-trousers",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Cleric+Trousers\">Cleric Trousers</a>"
       },
       {
        "id": "armors_4_19",
        "cls": "",
+       "item": "maiden-skirt",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Maiden+Skirt\">Maiden Skirt</a>"
       },
       {
@@ -10916,6 +11441,7 @@
       {
        "id": "armors_4_55",
        "cls": "",
+       "item": "archdeacon-skirt",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Archdeacon+Skirt\">Archdeacon Skirt</a>"
       },
       {
@@ -10926,11 +11452,13 @@
       {
        "id": "armors_4_37",
        "cls": "",
+       "item": "skirt-of-prayer",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Skirt+of+Prayer\">Skirt of Prayer</a>"
       },
       {
        "id": "armors_4_22",
        "cls": "",
+       "item": "fire-keeper-skirt",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Fire+Keeper+Skirt\">Fire Keeper Skirt</a>"
       },
       {
@@ -11023,6 +11551,10 @@
       {
        "id": "crow_1_8",
        "cls": "",
+       "item": [
+        "iron-bracelets",
+        "call-over"
+       ],
        "html": "Trade <a href=\"https://darksouls3.wiki.fextralife.com/Homeward+Bone\">Homeward Bone</a> for <a href=\"https://darksouls3.wiki.fextralife.com/Iron+Bracelets\">Iron Bracelets</a>"
       },
       {
