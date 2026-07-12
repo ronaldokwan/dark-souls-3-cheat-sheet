@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dark Souls 3 Cheat Sheet checklist data",
+  "type": "object",
+  "required": ["tabs"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "tabs": { "type": "array", "items": { "$ref": "#/definitions/tab" } }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "className": {
+      "type": "string",
+      "description": "Space-separated filter/journey classes (f_*, f_none, h_ng+, s_ng+, s_ng++).",
+      "pattern": "^\\s*((f_none|f_boss|f_miss|f_npc|f_estus|f_bone|f_tome|f_coal|f_ash|f_gest|f_sorc|f_pyro|f_mirac|f_ring|f_weap|f_arm|f_tit|f_gem|f_cov|f_misc|h_ng\\++|s_ng\\++)(\\s+|$))*$"
+    },
+    "item": {
+      "type": "object",
+      "required": ["id", "html"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z]+_\\d+_\\d+$" },
+        "cls": { "$ref": "#/definitions/className" },
+        "html": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "group": {
+      "type": "object",
+      "required": ["h4", "items"],
+      "properties": {
+        "attrs": { "type": "string" },
+        "h4": { "type": "string" },
+        "items": { "type": "array", "items": { "$ref": "#/definitions/item" } }
+      },
+      "additionalProperties": false
+    },
+    "section": {
+      "type": "object",
+      "required": ["id", "titleHtml", "type"],
+      "properties": {
+        "id": { "type": "string" },
+        "titleHtml": { "type": "string" },
+        "totalsId": { "type": ["string", "null"], "pattern": "^[a-z]+_totals_\\d+$" },
+        "type": { "enum": ["items", "groups", "raw"] },
+        "items": { "type": "array", "items": { "$ref": "#/definitions/item" } },
+        "groups": { "type": "array", "items": { "$ref": "#/definitions/group" } },
+        "raw": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "tab": {
+      "type": "object",
+      "required": ["id", "key", "title", "overallTotalId", "nav", "sections"],
+      "properties": {
+        "id": { "type": "string" },
+        "key": { "type": "string" },
+        "title": { "type": "string" },
+        "overallTotalId": { "type": "string" },
+        "listId": { "type": ["string", "null"] },
+        "searchId": { "type": ["string", "null"] },
+        "nav": { "type": "array", "items": { "type": "string" } },
+        "sections": { "type": "array", "items": { "$ref": "#/definitions/section" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

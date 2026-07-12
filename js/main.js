@@ -132,15 +132,19 @@
       $all('[id^="' + type + '_totals_"]').forEach(function (totEl) {
         var i = parseInt(totEl.id.slice((type + '_totals_').length), 10);
         var navEl = document.getElementById(type + '_nav_totals_' + i);
-        var count = 0, checked = 0;
+        var h3 = totEl.closest('h3');
+        var container = h3 ? h3.nextElementSibling : null;
 
-        for (var j = 1; ; j++) {
-          var cb = document.getElementById(type + '_' + i + '_' + j);
-          if (!cb) break;
-          var li = cb.closest('li');
-          if (/^playthrough_/.test(cb.id) && li && canFilter(li)) continue;
-          count++; overallCount++;
-          if (cb.checked) { checked++; overallChecked++; }
+        // Count the section's actual checkboxes so that gaps or out-of-order
+        // ids can never cause a silent undercount.
+        var count = 0, checked = 0;
+        if (container) {
+          $all('.checkbox input[type="checkbox"]', container).forEach(function (cb) {
+            var li = cb.closest('li');
+            if (/^playthrough_/.test(cb.id) && li && canFilter(li)) return;
+            count++; overallCount++;
+            if (cb.checked) { checked++; overallChecked++; }
+          });
         }
 
         var done = (checked === count);
@@ -148,11 +152,9 @@
         setBadge(totEl, label, done);
         setBadge(navEl, label, done);
 
-        var h3 = totEl.closest('h3');
         if (h3) h3.classList.toggle('completed', done);
 
         // Sub-heading (h4) visibility: hide fully-completed groups.
-        var container = h3 ? h3.nextElementSibling : null;
         if (container && container.tagName === 'DIV') {
           $all(':scope > h4', container).forEach(function (h) { h.classList.add('completed'); });
           $all(':scope > ul', container).forEach(function (ul) {

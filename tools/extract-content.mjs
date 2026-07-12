@@ -140,7 +140,8 @@ for (const tab of TABS) {
   });
 }
 
-writeFileSync('data/checklist.json', JSON.stringify(out, null, 1) + '\n');
+writeFileSync('data/checklist.json',
+  JSON.stringify({ $schema: './checklist.schema.json', tabs: out.tabs }, null, 1) + '\n');
 
 // --- report ---------------------------------------------------------------
 const allIds = [];

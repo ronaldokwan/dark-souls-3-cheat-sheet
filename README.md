@@ -20,12 +20,28 @@ under `vendor/`. There is no jQuery.
 | `js/main.js` | App logic (progress, profiles, filters, search, themes) |
 | `css/main.css` | Custom styles |
 | `vendor/` | Self-hosted Bootstrap 5 + Bootstrap Icons |
+| `tools/validate.mjs` | Validates `checklist.json` (run in CI) |
 | `tools/extract-content.mjs` | One-off script that generated the JSON from the old HTML |
+| `data/checklist.schema.json` | JSON Schema for editor validation of the data |
+| `tests/` | Playwright end-to-end tests |
 
 To run locally, serve the folder over HTTP (the page fetches the JSON), e.g.
-`python -m http.server` and open <http://localhost:8000>. Opening `index.html`
-directly from disk will not load the checklist because browsers block `fetch`
-on `file://`.
+`npm run serve` (or `python -m http.server`) and open the printed URL. Opening
+`index.html` directly from disk will not load the checklist because browsers
+block `fetch` on `file://`.
+
+## Development
+
+The site itself has no build step. The `package.json` is only dev tooling:
+
+```
+npm install                 # once, for the test tooling
+npm run validate            # check data/checklist.json is well-formed
+npm test                    # run the Playwright end-to-end tests
+```
+
+CI (`.github/workflows/ci.yml`) runs both the validator and the tests on every
+push and pull request, so a bad data edit or a broken behaviour fails the build.
 
 ## Contribution Guide
 

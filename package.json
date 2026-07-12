@@ -1,0 +1,15 @@
+{
+  "name": "dark-souls-3-cheat-sheet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dev tooling for the DS3 Cheat Sheet. The site itself is static and needs no build step.",
+  "type": "module",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "serve": "node tests/server.mjs",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}
