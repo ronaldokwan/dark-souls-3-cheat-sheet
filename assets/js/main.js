@@ -82,11 +82,12 @@ function isFilteredOut(cb) {
 /* ----------------------------------------------------------------------
  * Totals (ported from the original jQuery implementation)
  * -------------------------------------------------------------------- */
-function setBadge(el, text, done) {
+function setBadge(el, text, done, pct) {
   if (!el) return;
-  el.innerHTML = text;
+  el.textContent = text;
   el.classList.toggle('done', done);
   el.classList.toggle('in_progress', !done);
+  if (typeof pct === 'number') el.style.setProperty('--pct', pct);
 }
 
 function calculateTotals() {
@@ -119,8 +120,9 @@ function calculateTotals() {
 
       const done = checked === count;
       const label = done ? 'DONE' : checked + '/' + count;
-      setBadge(totEl, label, done);
-      setBadge(navEl, label, done);
+      const pct = count > 0 ? Math.round((checked / count) * 100) : 0;
+      setBadge(totEl, label, done, pct);
+      setBadge(navEl, label, done, pct);
 
       if (h3) h3.classList.toggle('completed', done);
 
@@ -140,7 +142,8 @@ function calculateTotals() {
     });
 
     const oDone = overallChecked === overallCount;
-    setBadge(overallEl, oDone ? 'DONE' : overallChecked + '/' + overallCount, oDone);
+    const oPct = overallCount > 0 ? Math.round((overallChecked / overallCount) * 100) : 0;
+    setBadge(overallEl, oDone ? 'DONE' : overallChecked + '/' + overallCount, oDone, oPct);
   });
 }
 

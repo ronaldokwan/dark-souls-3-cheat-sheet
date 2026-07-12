@@ -52,6 +52,8 @@ test('theme toggle flips data-bs-theme', async ({ page }) => {
 });
 
 test('category filter reduces visible items and reflects partial state', async ({ page }) => {
+  await page.locator('#tabPlaythrough .filter-panel summary').click();
+
   const visible = () => page.locator('#tabPlaythrough li.f_boss:visible').count();
   const before = await visible();
   await page.locator('label[for="f_boss"]').click();

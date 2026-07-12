@@ -193,374 +193,379 @@
               <label class="btn btn-outline-secondary" for="ng3">NG++</label>
             </span>
           </h2>
-          <div
-            class="btn-toolbar filter-toolbar mb-3"
-            role="group"
-            aria-label="Filter checklist categories"
-          >
-            <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="cat_quests"
-                data-category-toggle
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_quests"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Quests</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_boss"
-                data-item-toggle="f_boss"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_boss"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Bosses</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_miss"
-                data-item-toggle="f_miss"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_miss"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Missable</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_npc"
-                data-item-toggle="f_npc"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_npc"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                NPCs</label
-              >
+          <details class="filter-panel mb-3">
+            <summary class="filter-panel-summary">Filter by category</summary>
+            <div
+              class="btn-toolbar filter-toolbar mt-2"
+              role="group"
+              aria-label="Filter checklist categories"
+            >
+              <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="cat_quests"
+                  data-category-toggle
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_quests"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Quests</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_boss"
+                  data-item-toggle="f_boss"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_boss"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Bosses</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_miss"
+                  data-item-toggle="f_miss"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_miss"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Missable</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_npc"
+                  data-item-toggle="f_npc"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_npc"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  NPCs</label
+                >
+              </div>
+              <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="cat_upgrades"
+                  data-category-toggle
+                  autocomplete="off"
+                />
+                <label
+                  class="btn btn-outline-primary filter-btn filter-cat-label"
+                  for="cat_upgrades"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Upgrades</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_estus"
+                  data-item-toggle="f_estus"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_estus"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Estus Shards</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_bone"
+                  data-item-toggle="f_bone"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_bone"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Undead Bone Shards</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_tome"
+                  data-item-toggle="f_tome"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_tome"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Scrolls/Tomes</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_coal"
+                  data-item-toggle="f_coal"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_coal"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Coals</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_ash"
+                  data-item-toggle="f_ash"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_ash"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Ashes</label
+                >
+              </div>
+              <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="cat_ach"
+                  data-category-toggle
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_ach"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Achievements</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_gest"
+                  data-item-toggle="f_gest"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_gest"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Gestures</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_sorc"
+                  data-item-toggle="f_sorc"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_sorc"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Sorceries</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_pyro"
+                  data-item-toggle="f_pyro"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_pyro"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Pyromancies</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_mirac"
+                  data-item-toggle="f_mirac"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_mirac"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Miracles</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_ring"
+                  data-item-toggle="f_ring"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_ring"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Rings</label
+                >
+              </div>
+              <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="cat_gear"
+                  data-category-toggle
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_gear"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Gear</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_weap"
+                  data-item-toggle="f_weap"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_weap"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Weapons</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_arm"
+                  data-item-toggle="f_arm"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_arm"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Armor</label
+                >
+              </div>
+              <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="cat_mat"
+                  data-category-toggle
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_mat"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Materials</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_tit"
+                  data-item-toggle="f_tit"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_tit"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Titanite</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_gem"
+                  data-item-toggle="f_gem"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_gem"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Gems</label
+                >
+              </div>
+              <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="cat_other"
+                  data-category-toggle
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_other"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Others</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_cov"
+                  data-item-toggle="f_cov"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_cov"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Covenants</label
+                >
+                <input
+                  type="checkbox"
+                  class="btn-check"
+                  id="f_misc"
+                  data-item-toggle="f_misc"
+                  autocomplete="off"
+                />
+                <label class="btn btn-outline-secondary filter-btn" for="f_misc"
+                  ><span class="filter-eye" aria-hidden="true"
+                    ><i class="bi bi-eye icon-eye-open"></i
+                    ><i class="bi bi-eye-slash icon-eye-close"></i
+                  ></span>
+                  Misc. items</label
+                >
+              </div>
             </div>
-            <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="cat_upgrades"
-                data-category-toggle
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_upgrades"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Upgrades</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_estus"
-                data-item-toggle="f_estus"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_estus"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Estus Shards</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_bone"
-                data-item-toggle="f_bone"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_bone"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Undead Bone Shards</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_tome"
-                data-item-toggle="f_tome"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_tome"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Scrolls/Tomes</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_coal"
-                data-item-toggle="f_coal"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_coal"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Coals</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_ash"
-                data-item-toggle="f_ash"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_ash"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Ashes</label
-              >
-            </div>
-            <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="cat_ach"
-                data-category-toggle
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_ach"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Achievements</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_gest"
-                data-item-toggle="f_gest"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_gest"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Gestures</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_sorc"
-                data-item-toggle="f_sorc"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_sorc"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Sorceries</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_pyro"
-                data-item-toggle="f_pyro"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_pyro"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Pyromancies</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_mirac"
-                data-item-toggle="f_mirac"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_mirac"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Miracles</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_ring"
-                data-item-toggle="f_ring"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_ring"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Rings</label
-              >
-            </div>
-            <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="cat_gear"
-                data-category-toggle
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_gear"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Gear</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_weap"
-                data-item-toggle="f_weap"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_weap"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Weapons</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_arm"
-                data-item-toggle="f_arm"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_arm"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Armor</label
-              >
-            </div>
-            <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="cat_mat"
-                data-category-toggle
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_mat"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Materials</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_tit"
-                data-item-toggle="f_tit"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_tit"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Titanite</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_gem"
-                data-item-toggle="f_gem"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_gem"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Gems</label
-              >
-            </div>
-            <div class="filter-cat btn-group-vertical btn-group-sm me-2 mb-2">
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="cat_other"
-                data-category-toggle
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-primary filter-btn filter-cat-label" for="cat_other"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Others</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_cov"
-                data-item-toggle="f_cov"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_cov"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Covenants</label
-              >
-              <input
-                type="checkbox"
-                class="btn-check"
-                id="f_misc"
-                data-item-toggle="f_misc"
-                autocomplete="off"
-              />
-              <label class="btn btn-outline-secondary filter-btn" for="f_misc"
-                ><span class="filter-eye" aria-hidden="true"
-                  ><i class="bi bi-eye icon-eye-open"></i
-                  ><i class="bi bi-eye-slash icon-eye-close"></i
-                ></span>
-                Misc. items</label
-              >
-            </div>
-          </div>
+          </details>
           <div class="checklist-content"></div>
         </div>
 
