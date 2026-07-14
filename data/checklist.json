@@ -2733,7 +2733,7 @@
       },
       {
        "id": "playthrough_15_55",
-       "cls": "f_weap f_mirac_build",
+       "cls": "f_weap f_sorc_build",
        "item": "golden-ritual-spear",
        "html": "Enter the cathedral from the top of the dark section, unlock an elevator shortcut back down to Sulyvahn's room, and cross the bridge to the other side to find a Mimic who has the <a href=\"https://darksouls3.wiki.fextralife.com/Golden+Ritual+Spear\">Golden Ritual Spear</a>"
       },
@@ -8619,8 +8619,8 @@
         },
         {
          "id": "weapons_1_134",
-         "passive": "Can cast miracles in addition to functioning as a spear.",
-         "cls": "f_mirac_build",
+         "passive": "Can cast sorceries in addition to functioning as a spear; its spell buff scales with Faith.",
+         "cls": "f_sorc_build",
          "item": "golden-ritual-spear",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Golden+Ritual+Spear\">Golden Ritual Spear</a>"
         },
@@ -8994,7 +8994,7 @@
         },
         {
          "id": "weapons_1_170",
-         "passive": "Casting speed buff: spells cast faster while it is held, even in the off-hand.",
+         "passive": "Casting speed buff: spells of all schools (sorceries, pyromancies and miracles) cast faster while it is held, even in the off-hand and even when casting with a different catalyst.",
          "cls": "f_sorc_build",
          "item": "witchtree-branch",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Witchtree+Branch\">Witchtree Branch</a>"
@@ -9126,7 +9126,7 @@
         },
         {
          "id": "weapons_1_189",
-         "passive": "Casting speed buff: miracles cast significantly faster.",
+         "passive": "Casting speed buff: spells of all schools (sorceries, pyromancies and miracles) cast faster while it is held, even in the off-hand and even when casting with a different catalyst.",
          "cls": "f_mirac_build",
          "item": "saint-tree-bellvine",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Saint-tree+Bellvine\">Saint-tree Bellvine</a>"

@@ -376,24 +376,70 @@ const BUILD_HIGHLIGHT_COLORS = {
   f_mirac_build: '201, 162, 39',
 };
 
-function updateBuildHighlights() {
-  const active = $all('[data-build-highlight]')
+// School names as they appear in passive descriptions. They let the passive
+// modal tint a description that matters to an active build even when the
+// entry itself is tagged for another school (e.g. Saint-tree Bellvine is a
+// miracle catalyst, but its casting speed buff covers sorceries and
+// pyromancies cast with another catalyst too).
+const BUILD_TERMS = {
+  f_sorc_build: 'sorcer(?:y|ies)',
+  f_pyro_build: 'pyromanc(?:y|ies)',
+  f_mirac_build: 'miracles?',
+};
+
+function activeBuilds() {
+  return $all('[data-build-highlight]')
     .filter((el) => el.checked)
     .map((el) => el.getAttribute('data-build-highlight'));
+}
 
+function buildTint(matches) {
+  if (matches.length === 1) return `rgba(${BUILD_HIGHLIGHT_COLORS[matches[0]]}, 0.35)`;
+  const stops = matches.map((cls) => `rgba(${BUILD_HIGHLIGHT_COLORS[cls]}, 0.35)`);
+  return `linear-gradient(90deg, ${stops.join(', ')})`;
+}
+
+function updateBuildHighlights() {
+  const active = activeBuilds();
   const scope = CHECKLIST_TABS.map((t) => '#' + t + ' li[data-id]').join(', ');
   $all(scope).forEach((li) => {
     const matches = active.filter((cls) => li.classList.contains(cls));
     li.classList.toggle('build-highlight', matches.length > 0);
     if (matches.length === 0) {
       li.style.removeProperty('--build-tint');
-    } else if (matches.length === 1) {
-      li.style.setProperty('--build-tint', `rgba(${BUILD_HIGHLIGHT_COLORS[matches[0]]}, 0.35)`);
     } else {
-      const stops = matches.map((cls) => `rgba(${BUILD_HIGHLIGHT_COLORS[cls]}, 0.35)`);
-      li.style.setProperty('--build-tint', `linear-gradient(90deg, ${stops.join(', ')})`);
+      li.style.setProperty('--build-tint', buildTint(matches));
     }
   });
+}
+
+// Passive modal counterpart of updateBuildHighlights: tint the description
+// when the passive matters to an active build - either the entry carries that
+// build's tag, or the text itself names the school - and mark the matched
+// school names in their own build colour.
+function renderPassiveModalText(li, text) {
+  const el = document.getElementById('passiveModalText');
+  const matches = activeBuilds().filter(
+    (cls) => li.classList.contains(cls) || new RegExp(BUILD_TERMS[cls], 'i').test(text)
+  );
+  el.classList.toggle('build-highlight', matches.length > 0);
+  el.textContent = text;
+  if (matches.length === 0) {
+    el.style.removeProperty('--build-tint');
+    return;
+  }
+  el.style.setProperty('--build-tint', buildTint(matches));
+  // textContent above escaped the description, so these replacements only
+  // ever wrap plain text.
+  let html = el.innerHTML;
+  matches.forEach((cls) => {
+    html = html.replace(
+      new RegExp('\\b' + BUILD_TERMS[cls], 'gi'),
+      (m) =>
+        `<span class="build-term" style="--build-tint: rgba(${BUILD_HIGHLIGHT_COLORS[cls]}, 0.55)">${m}</span>`
+    );
+  });
+  el.innerHTML = html;
 }
 
 function updateBuildHighlightVisibility(activeTabId) {
@@ -862,9 +908,10 @@ function wireChecklistDelegation() {
   document.addEventListener('click', (e) => {
     const btn = e.target.closest('.passive-info');
     if (!btn) return;
-    const content = btn.closest('li').querySelector('.item_content');
+    const li = btn.closest('li');
+    const content = li.querySelector('.item_content');
     document.getElementById('passiveModalItem').innerHTML = content ? content.innerHTML : '';
-    document.getElementById('passiveModalText').textContent = btn.getAttribute('data-passive');
+    renderPassiveModalText(li, btn.getAttribute('data-passive'));
     modal('passiveModal').show();
   });
 }

@@ -236,6 +236,16 @@ ul li ul {
   background: var(--bs-tertiary-bg);
   padding: 0.5rem 0.75rem;
   font-size: 0.95em;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+/* Same hover lift as the zone/section cards (.table_of_contents li). */
+.soul_grid li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  border-color: var(--accent);
 }
 .soul_grid a {
   text-decoration: none;
@@ -375,6 +385,19 @@ body.hide_completed label.completed + .passive-info {
   padding: 0.1em 0.4em;
   margin-left: -0.4em;
   transition: background 0.3s ease;
+}
+/* The passive modal mirrors the list tinting: while Builds toggles are active
+ * the description is tinted when the passive matters to that build, and the
+ * school names it mentions are marked in their own build colour. */
+#passiveModalText.build-highlight {
+  margin-left: 0;
+  padding: 0.3em 0.5em;
+}
+.build-term {
+  background: var(--build-tint);
+  border-radius: var(--bs-border-radius-sm);
+  padding: 0 0.25em;
+  font-weight: 600;
 }
 #highlight_sorc:checked + .build-sorc {
   background-color: rgb(61, 118, 209);

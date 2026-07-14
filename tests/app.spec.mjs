@@ -444,6 +444,35 @@ test('unique-passive info button opens the passive modal without touching the ch
   await expect(page.locator('#passiveModalText')).toContainText('souls');
 });
 
+test('build toggles tint the passive modal text, including cross-school buffs', async ({
+  page,
+}) => {
+  await page.locator('label[for="highlight_sorc"]').click();
+  await page.locator('[data-bs-target="#tabWeaponsShields"]').click();
+
+  // Saint-tree Bellvine is a miracle catalyst, but its casting speed buff
+  // covers sorceries cast with another catalyst too: with the Sorcery build
+  // active its description is tinted and "sorceries" is marked.
+  await page.locator('li[data-id="weapons_1_189"] .passive-info').click();
+  await expect(page.locator('#passiveModalText')).toHaveClass(/build-highlight/);
+  await expect(page.locator('#passiveModalText .build-term').first()).toContainText(/sorcer/i);
+  await page.locator('#passiveModal .btn-outline-secondary').click();
+  await expect(page.locator('#passiveModal')).toBeHidden();
+
+  // A passive with no sorcery relevance stays untinted (Grass Crest Shield).
+  await page.locator('li[data-id="weapons_2_28"] .passive-info').click();
+  await expect(page.locator('#passiveModalText')).not.toHaveClass(/build-highlight/);
+  await expect(page.locator('#passiveModalText .build-term')).toHaveCount(0);
+  await page.locator('#passiveModal .btn-outline-secondary').click();
+  await expect(page.locator('#passiveModal')).toBeHidden();
+
+  // With every build toggled off again, nothing in the modal is tinted.
+  await page.locator('label[for="highlight_sorc"]').click();
+  await page.locator('li[data-id="weapons_1_189"] .passive-info').click();
+  await expect(page.locator('#passiveModalText')).not.toHaveClass(/build-highlight/);
+  await expect(page.locator('#passiveModalText .build-term')).toHaveCount(0);
+});
+
 test('build filter hides Playthrough entries but never the collection tabs', async ({ page }) => {
   await page.locator('#tabPlaythrough .filter-panel summary').click();
 
