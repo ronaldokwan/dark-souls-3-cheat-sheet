@@ -16,6 +16,13 @@
   --accent: #e2874a;
 }
 
+/* The navbar is sticky, so anchor jumps (zone/section links like Anor Londo)
+ * must land below it instead of underneath: navbar height (56px) plus a
+ * little breathing room. */
+html {
+  scroll-padding-top: 4.5rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
