@@ -426,6 +426,11 @@ input[type='checkbox']:checked + .item_content {
 body.hide_completed .completed {
   display: none !important;
 }
+/* Hide the whole row, not just its label: build highlighting tints the <li>,
+ * which would otherwise linger as an empty coloured strip. */
+body.hide_completed li[data-id]:has(> .checkbox > label.completed) {
+  display: none !important;
+}
 
 /* Unique-passive info buttons (Weapons/Shields and Armor tabs) ------------
  * A small star button after entries whose equipment has a unique passive
@@ -443,10 +448,6 @@ body.hide_completed .completed {
 .passive-info:hover,
 .passive-info:focus-visible {
   color: var(--accent);
-}
-/* Don't leave orphan star buttons behind when their completed row is hidden. */
-body.hide_completed label.completed + .passive-info {
-  display: none;
 }
 
 /* Build highlighting (Sorcery / Pyromancy / Miracle toggles) -------------
