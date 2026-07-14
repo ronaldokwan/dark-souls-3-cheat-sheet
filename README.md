@@ -12,12 +12,14 @@ the browser.
 
 ## Features
 
-- **Complete checklists** for the playthrough, achievements, weapons/shields, armor, and Crow trades — over 1,900 tracked items.
+- **Complete checklists** for the playthrough, achievements, weapons/shields, armor, and Crow trades — over 1,900 tracked items — plus a soul-item value reference.
 - **Progress saved** in your browser, with multiple **profiles** for different characters.
 - **Cross-tab sync** — check an item once (a weapon, ring, spell, …) and it's ticked everywhere it appears, across the Playthrough and the collection tabs.
 - **Filters** by category (bosses, missables, rings, …), by caster build (sorcery / pyromancy / miracle), and by journey (NG / NG+ / NG++).
 - **Build highlighting** — tint everything tied to a sorcery, pyromancy, or miracle build (catalysts, rings, trainers, spells) across all tabs, with blended colors for steps shared by several builds.
+- **Unique passive notes** — equipment with a special effect gets a star info button that opens the effect description in a modal; with build highlights active, descriptions that matter to your build are tinted too.
 - **Per-section search** with match highlighting, collapsible sections (with expand/collapse all), and a "hide completed" mode.
+- **Multi-column collection lists** on wide screens, with weapon/shield categories kept whole per column.
 - **Light / dark / auto** theme.
 - **Import/export** your progress as a file or via the clipboard.
 - **Installable and offline** — it's a Progressive Web App, so once loaded it works with no network connection.
@@ -169,6 +171,28 @@ place and it ticks in the other):
   enforces this and warns about keys used in only one tab (which link nothing).
 - Leave `item` off for standalone entries; stackables (e.g. Homeward Bone) and
   Misc/Crow trades deliberately have none.
+
+### Unique passive effects
+
+Equipment with a unique passive effect can carry an optional **`passive`**
+field — a short plain-text description of the effect:
+
+```json
+{
+  "id": "weapons_2_28",
+  "item": "grass-crest-shield",
+  "passive": "Boosts stamina recovery by 4 per second, even when worn on the back.",
+  "html": "<a href=\"...\">Grass Crest Shield</a>"
+}
+```
+
+It renders as a star info button next to the entry (Weapons/Shields and Armor
+tabs) that opens the description in a modal. Keep the text short and factual.
+When the text names a spell school ("sorceries", "pyromancies", "miracles"),
+the modal tints the description while that build highlight is active — even if
+the entry itself is tagged for a different school (e.g. the Saint-tree
+Bellvine is a miracle catalyst, but its casting speed buff covers every
+school, so it lights up for a sorcery build too).
 
 ## Acknowledgments
 
