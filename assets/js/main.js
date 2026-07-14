@@ -458,8 +458,11 @@ function wireBuildHighlights() {
  * -------------------------------------------------------------------- */
 const mql = window.matchMedia('(prefers-color-scheme: dark)');
 function themePref() {
-  const p = Storage.get('style', 'auto');
-  return p === 'light' || p === 'dark' || p === 'auto' ? p : 'auto';
+  // The default is light, not the OS scheme: the page opens light for new
+  // visitors even on dark-mode machines. "Auto (match system)" remains an
+  // explicit choice in the Options tab, and stored preferences always win.
+  const p = Storage.get('style', 'light');
+  return p === 'light' || p === 'dark' || p === 'auto' ? p : 'light';
 }
 function resolveTheme(pref) {
   if (pref === 'dark' || pref === 'light') return pref;
