@@ -12,8 +12,55 @@
   --bs-border-radius-sm: 0.4rem;
   --bs-border-radius-lg: 0.8rem;
 }
+/* Dark theme: ember instead of stock Bootstrap blue. `color-scheme: dark`
+ * makes the native controls (the plain checklist checkboxes, scrollbars)
+ * render dark instead of glaring light-grey; the link and primary-button
+ * palettes shift to the ember accent so dark mode reads bonfire, not blue. */
 [data-bs-theme='dark'] {
   --accent: #e2874a;
+  color-scheme: dark;
+  --bs-link-color: #e2874a;
+  --bs-link-color-rgb: 226, 135, 74;
+  --bs-link-hover-color: #eda678;
+  --bs-link-hover-color-rgb: 237, 166, 120;
+  --bs-focus-ring-color: rgba(226, 135, 74, 0.25);
+}
+[data-bs-theme='dark'] .btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #b35c22;
+  --bs-btn-border-color: #b35c22;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #c96a2c;
+  --bs-btn-hover-border-color: #c96a2c;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #a8531c;
+  --bs-btn-active-border-color: #a8531c;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #b35c22;
+  --bs-btn-disabled-border-color: #b35c22;
+  --bs-btn-focus-shadow-rgb: 226, 135, 74;
+}
+[data-bs-theme='dark'] .form-control:focus,
+[data-bs-theme='dark'] .form-select:focus {
+  border-color: #b35c22;
+  box-shadow: 0 0 0 0.25rem rgba(226, 135, 74, 0.25);
+}
+[data-bs-theme='dark'] .btn-outline-primary {
+  --bs-btn-color: #e2874a;
+  --bs-btn-border-color: #e2874a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #b35c22;
+  --bs-btn-hover-border-color: #b35c22;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #b35c22;
+  --bs-btn-active-border-color: #b35c22;
+  --bs-btn-disabled-color: #e2874a;
+  --bs-btn-focus-shadow-rgb: 226, 135, 74;
+}
+
+/* Ember checkboxes in both themes. */
+input[type='checkbox'] {
+  accent-color: var(--accent);
 }
 
 /* The navbar is sticky, so anchor jumps (zone/section links like Anor Londo)
@@ -91,6 +138,12 @@ body {
  * uses the ember accent instead of stock Bootstrap blue. */
 .navbar.sticky-top {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+/* Black shadows barely read on a dark page: separate the sticky bar from the
+ * content scrolling under it with a stronger shadow and a hairline border. */
+[data-bs-theme='dark'] .navbar.sticky-top {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid var(--bs-border-color);
 }
 .navbar-nav .nav-link {
   transition:
@@ -203,12 +256,19 @@ ul li ul {
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease,
-    border-color 0.15s ease;
+    border-color 0.15s ease,
+    background-color 0.15s ease;
 }
 .table_of_contents li:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
   border-color: var(--accent);
+}
+/* On dark, elevation reads as a lighter surface, not a darker shadow. */
+[data-bs-theme='dark'] .table_of_contents li:hover,
+[data-bs-theme='dark'] .soul_grid li:hover {
+  background: var(--bs-secondary-bg);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
 }
 .table_of_contents li > span {
   float: right;
@@ -246,7 +306,8 @@ ul li ul {
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease,
-    border-color 0.15s ease;
+    border-color 0.15s ease,
+    background-color 0.15s ease;
 }
 /* Same hover lift as the zone/section cards (.table_of_contents li). */
 .soul_grid li:hover {
@@ -354,6 +415,11 @@ input[type='checkbox']:checked + .item_content {
   text-decoration: line-through;
   opacity: 0.65;
   transition: opacity 0.2s ease;
+}
+/* 0.65 over a dark background dips below comfortable contrast; the
+ * strikethrough already carries the "done" signal. */
+[data-bs-theme='dark'] input[type='checkbox']:checked + .item_content {
+  opacity: 0.75;
 }
 
 body.hide_completed .completed {
@@ -486,6 +552,12 @@ body.hide_completed .togglehide .icon-eye-close {
   background-color: rgb(255, 246, 18);
   color: #000;
   border-radius: 2px;
+}
+/* Pure yellow is blinding on a dark page; a translucent amber wash keeps
+ * matches obvious without searing. */
+[data-bs-theme='dark'] .highlight {
+  background-color: rgba(255, 213, 79, 0.3);
+  color: inherit;
 }
 
 /* NG+/NG++ entry decorators --------------------------------------------- */

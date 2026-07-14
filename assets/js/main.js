@@ -470,7 +470,12 @@ function resolveTheme(pref) {
 }
 function applyTheme() {
   const pref = themePref();
-  document.documentElement.setAttribute('data-bs-theme', resolveTheme(pref));
+  const resolved = resolveTheme(pref);
+  document.documentElement.setAttribute('data-bs-theme', resolved);
+  // Keep the browser/PWA chrome (Android toolbar, installed-app title bar)
+  // matching the navbar of the active theme instead of a fixed dark brown.
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', resolved === 'dark' ? '#17110b' : '#f8f9fa');
   const sel = document.getElementById('themes');
   if (sel) sel.value = pref;
 }
