@@ -302,6 +302,7 @@ function populateProfiles() {
     sel.appendChild(opt);
   });
   sel.value = profiles.current;
+  document.getElementById('profileDelete').disabled = !canDelete();
 }
 
 /* ----------------------------------------------------------------------
@@ -569,18 +570,20 @@ function wireProfiles() {
   document.getElementById('profileAdd').addEventListener('click', () => {
     document.getElementById('profileModalTitle').textContent = 'Add Profile';
     document.getElementById('profileModalName').value = '';
+    document.getElementById('profileModalIconAdd').style.display = '';
+    document.getElementById('profileModalIconRename').style.display = 'none';
     document.getElementById('profileModalAdd').style.display = '';
-    document.getElementById('profileModalUpdate').style.display = 'none';
-    document.getElementById('profileModalDelete').style.display = 'none';
+    document.getElementById('profileModalRename').style.display = 'none';
     modal('profileModal').show();
   });
 
-  document.getElementById('profileEdit').addEventListener('click', () => {
-    document.getElementById('profileModalTitle').textContent = 'Edit Profile';
+  document.getElementById('profileRename').addEventListener('click', () => {
+    document.getElementById('profileModalTitle').textContent = 'Rename Profile';
     document.getElementById('profileModalName').value = profiles.current;
+    document.getElementById('profileModalIconAdd').style.display = 'none';
+    document.getElementById('profileModalIconRename').style.display = '';
     document.getElementById('profileModalAdd').style.display = 'none';
-    document.getElementById('profileModalUpdate').style.display = '';
-    document.getElementById('profileModalDelete').style.display = canDelete() ? '' : 'none';
+    document.getElementById('profileModalRename').style.display = '';
     modal('profileModal').show();
   });
 
@@ -597,7 +600,7 @@ function wireProfiles() {
     modal('profileModal').hide();
   });
 
-  document.getElementById('profileModalUpdate').addEventListener('click', () => {
+  document.getElementById('profileModalRename').addEventListener('click', () => {
     const newName = document.getElementById('profileModalName').value.trim();
     if (newName.length > 0 && newName !== profiles.current) {
       profiles[profilesKey][newName] = profiles[profilesKey][profiles.current];
@@ -609,22 +612,25 @@ function wireProfiles() {
     modal('profileModal').hide();
   });
 
-  document.getElementById('profileModalDelete').addEventListener('click', () => {
-    if (!canDelete() || !confirm('Are you sure?')) return;
+  document.getElementById('profileDelete').addEventListener('click', () => {
+    if (!canDelete()) return;
+    document.getElementById('profileDeleteModalName').textContent = profiles.current;
+    modal('profileDeleteModal').show();
+  });
+  document.getElementById('profileDeleteModalYes').addEventListener('click', () => {
     delete profiles[profilesKey][profiles.current];
     profiles.current = getFirstProfile();
     save();
     populateProfiles();
     populateChecklists();
     restoreState(profiles.current);
-    modal('profileModal').hide();
+    modal('profileDeleteModal').hide();
   });
 
   document.getElementById('profileNG+').addEventListener('click', () => {
     modal('NG+Modal').show();
   });
   document.getElementById('NG+ModalYes').addEventListener('click', () => {
-    if (!confirm('Are you sure you wish to begin the next journey?')) return;
     const data = cur().checklistData;
     $all('[id^="playthrough_"], [id^="crow_"]').forEach((cb) => {
       if (cb.matches('.checkbox input[type="checkbox"]') && cb.checked) {

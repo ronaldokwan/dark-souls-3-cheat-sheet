@@ -412,6 +412,26 @@ textarea#profileText {
   resize: vertical;
 }
 
+/* Modal accent borders ---------------------------------------------------
+ * Every modal gets an icon-led title and a colored top border: red for
+ * destructive confirmations, the app's ember accent for the ordinary
+ * add/rename profile form. */
+.confirm-modal-content {
+  border-top: 3px solid var(--bs-danger);
+}
+.profile-modal-content {
+  border-top: 3px solid var(--accent);
+}
+.ngplus-summary li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.35rem 0;
+}
+.ngplus-summary li + li {
+  border-top: 1px solid var(--bs-border-color);
+}
+
 /* Mobile / touch refinements -------------------------------------------- */
 /* Bottom clearance so the fixed "Back to Top" / "Hide Completed" buttons
    never sit on top of the last checklist rows. */

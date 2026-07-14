@@ -327,6 +327,80 @@ test('profile modal opens', async ({ page }) => {
   await expect(page.locator('#profileModal')).toBeVisible();
 });
 
+test('renaming a profile updates the selector', async ({ page }) => {
+  await page.locator('[data-bs-target="#tabOptions"]').click();
+  await page.locator('#profileRename').click();
+  await expect(page.locator('#profileModalTitle')).toHaveText('Rename Profile');
+  await expect(page.locator('#profileModalName')).toHaveValue('Default Profile');
+
+  await page.locator('#profileModalName').fill('My Run');
+  await page.locator('#profileModalRename').click();
+  await expect(page.locator('#profileModal')).toBeHidden();
+  await expect(page.locator('#profiles')).toHaveValue('My Run');
+});
+
+test('deleting a profile requires the confirmation modal, not a native dialog', async ({
+  page,
+}) => {
+  await page.locator('[data-bs-target="#tabOptions"]').click();
+  // Only one profile exists yet, so deleting it (and being left with none) is
+  // disallowed.
+  await expect(page.locator('#profileDelete')).toBeDisabled();
+
+  await page.locator('#profileAdd').click();
+  await page.locator('#profileModalName').fill('Second Run');
+  await page.locator('#profileModalAdd').click();
+  await expect(page.locator('#profileDelete')).toBeEnabled();
+
+  await page.locator('#profileDelete').click();
+  await expect(page.locator('#profileDeleteModal')).toBeVisible();
+  await expect(page.locator('#profileDeleteModalName')).toHaveText('Second Run');
+
+  // Cancel makes no changes.
+  await page.locator('#profileDeleteModal .btn-outline-secondary').click();
+  await expect(page.locator('#profileDeleteModal')).toBeHidden();
+  await expect(page.locator('#profiles')).toHaveValue('Second Run');
+
+  // Confirming deletes it and falls back to the remaining profile. A native
+  // confirm() here would hang the test (Playwright auto-dismisses unexpected
+  // dialogs and the awaited click would never resolve), proving there is no
+  // leftover browser-native confirmation.
+  await page.locator('#profileDelete').click();
+  await page.locator('#profileDeleteModalYes').click();
+  await expect(page.locator('#profileDeleteModal')).toBeHidden();
+  await expect(page.locator('#profiles')).toHaveValue('Default Profile');
+  await expect(page.locator('#profileDelete')).toBeDisabled();
+});
+
+test('NG+ modal resets Playthrough/Misc but keeps other checklists, with no extra native dialog', async ({
+  page,
+}) => {
+  await page.locator('#playthrough_1_16').check(); // Estus Ring (Playthrough)
+  await page.locator('[data-bs-target="#tabChecklists"]').click();
+  await page.locator('#checklist_8_5').check(); // an Achievements entry, unrelated to the link above
+
+  await page.locator('[data-bs-target="#tabOptions"]').click();
+  await page.locator('#profileNG\\+').click();
+  await expect(page.locator('#NG\\+Modal')).toBeVisible();
+
+  // Cancel makes no changes.
+  await page.locator('#NG\\+Modal .btn-outline-secondary').click();
+  await expect(page.locator('#NG\\+Modal')).toBeHidden();
+  await expect(page.locator('#checklist_8_5')).toBeChecked();
+
+  // Confirming resets Playthrough but leaves Achievements alone. A native
+  // confirm()/alert() here would hang the test (Playwright auto-dismisses
+  // unexpected dialogs and the awaited click would never resolve), so this
+  // also proves the flow no longer double-confirms.
+  await page.locator('#profileNG\\+').click();
+  await page.locator('#NG\\+ModalYes').click();
+  await expect(page.locator('#NG\\+Modal')).toBeHidden();
+  await expect(page.locator('#checklist_8_5')).toBeChecked();
+
+  await page.locator('[data-bs-target="#tabPlaythrough"]').click();
+  await expect(page.locator('#playthrough_1_16')).not.toBeChecked();
+});
+
 test('build filter hides Playthrough entries but never the collection tabs', async ({ page }) => {
   await page.locator('#tabPlaythrough .filter-panel summary').click();
 

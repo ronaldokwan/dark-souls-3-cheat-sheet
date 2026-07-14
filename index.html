@@ -810,8 +810,11 @@
               <div class="input-group">
                 <select class="form-select" id="profiles"></select>
                 <button class="btn btn-outline-secondary" type="button" id="profileAdd">Add</button>
-                <button class="btn btn-outline-secondary" type="button" id="profileEdit">
-                  Edit
+                <button class="btn btn-outline-secondary" type="button" id="profileRename">
+                  Rename
+                </button>
+                <button class="btn btn-outline-danger" type="button" id="profileDelete">
+                  Delete
                 </button>
                 <button class="btn btn-outline-secondary" type="button" id="profileNG+">NG+</button>
               </div>
@@ -849,11 +852,30 @@
     <!-- container -->
 
     <!-- Profile modal -->
-    <div id="profileModal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <div
+      id="profileModal"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="profileModalTitleHeading"
+      aria-hidden="true"
+    >
       <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content profile-modal-content">
           <div class="modal-header">
-            <h5 id="profileModalTitle" class="modal-title">Profile</h5>
+            <h5 id="profileModalTitleHeading" class="modal-title d-flex align-items-center gap-2">
+              <i
+                id="profileModalIconAdd"
+                class="bi bi-person-plus text-primary"
+                aria-hidden="true"
+              ></i>
+              <i
+                id="profileModalIconRename"
+                class="bi bi-pencil-square text-primary"
+                aria-hidden="true"
+                style="display: none"
+              ></i>
+              <span id="profileModalTitle">Profile</span>
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -871,28 +893,35 @@
             />
           </div>
           <div class="modal-footer">
-            <button
-              type="button"
-              id="profileModalClose"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Cancel
             </button>
-            <button type="button" id="profileModalAdd" class="btn btn-primary">Add</button>
-            <button type="button" id="profileModalUpdate" class="btn btn-primary">Update</button>
-            <button type="button" id="profileModalDelete" class="btn btn-danger">Delete</button>
+            <button type="button" id="profileModalAdd" class="btn btn-primary">
+              <i class="bi bi-person-plus" aria-hidden="true"></i> Add
+            </button>
+            <button type="button" id="profileModalRename" class="btn btn-primary">
+              <i class="bi bi-pencil-square" aria-hidden="true"></i> Rename
+            </button>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- NG+ modal -->
-    <div id="NG+Modal" class="modal fade" tabindex="-1" aria-hidden="true">
+    <!-- Profile delete modal -->
+    <div
+      id="profileDeleteModal"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="profileDeleteModalTitle"
+      aria-hidden="true"
+    >
       <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content confirm-modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Begin next journey?</h5>
+            <h5 id="profileDeleteModalTitle" class="modal-title d-flex align-items-center gap-2">
+              <i class="bi bi-trash3 text-danger" aria-hidden="true"></i>
+              Delete profile?
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -901,12 +930,71 @@
             ></button>
           </div>
           <div class="modal-body">
-            If you begin the next journey, all progress on the "Playthrough" and "Misc" tabs of this
-            profile will be reset, while achievement and collection checklists will be kept.
+            <p class="mb-0">
+              This permanently deletes <strong id="profileDeleteModalName"></strong> and all of its
+              checklist progress. This action cannot be undone.
+            </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-            <button type="button" id="NG+ModalYes" class="btn btn-danger">Yes</button>
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Cancel
+            </button>
+            <button type="button" id="profileDeleteModalYes" class="btn btn-danger">
+              <i class="bi bi-trash3" aria-hidden="true"></i> Delete Profile
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NG+ modal -->
+    <div
+      id="NG+Modal"
+      class="modal fade"
+      tabindex="-1"
+      aria-labelledby="NG+ModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content confirm-modal-content">
+          <div class="modal-header">
+            <h5 id="NG+ModalTitle" class="modal-title d-flex align-items-center gap-2">
+              <i class="bi bi-arrow-repeat text-danger" aria-hidden="true"></i>
+              Begin next journey?
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Starting New Game+ resets your progress on this profile so you can track the run again
+              from a clean slate.
+            </p>
+            <ul class="list-unstyled ngplus-summary mb-0">
+              <li class="text-danger">
+                <i class="bi bi-x-circle-fill" aria-hidden="true"></i>
+                <span><strong>Playthrough</strong> and <strong>Misc</strong> checklists reset</span>
+              </li>
+              <li class="text-success">
+                <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                <span
+                  ><strong>Achievement</strong> and <strong>Collection</strong> checklists
+                  kept</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Cancel
+            </button>
+            <button type="button" id="NG+ModalYes" class="btn btn-danger">
+              <i class="bi bi-arrow-repeat" aria-hidden="true"></i> Begin Next Journey
+            </button>
           </div>
         </div>
       </div>
