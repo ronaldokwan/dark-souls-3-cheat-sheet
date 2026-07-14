@@ -277,6 +277,35 @@ test('NG+/NG++ upgrade variants sync to their matching Achievements entry', asyn
   await expect(page.locator('#checklist_5_79')).toBeChecked();
 });
 
+test('multi-item drops and same-URL variants sync to the right twins', async ({ page }) => {
+  // Havel (playthrough_12_40) drops two items at once: both collection boxes
+  // must mirror. The alternate Havel spawn (playthrough_12_33) is unlinked.
+  await page.locator('#playthrough_12_40').check();
+  await expect(page.locator('#weapons_1_113')).toBeChecked(); // Dragon Tooth
+  await expect(page.locator('#weapons_2_55')).toBeChecked(); // Havel's Greatshield
+  await expect(page.locator('#playthrough_12_33')).not.toBeChecked();
+
+  // The two Loincloths share one wiki URL but are distinct items: the Undead
+  // Settlement pickup syncs only the base entry, the Dreg Heap pickup only the
+  // Ringed City version.
+  await page.locator('#playthrough_3_44').check();
+  await expect(page.locator('#armors_4_12')).toBeChecked();
+  await expect(page.locator('#armors_4_90')).not.toBeChecked();
+  await page.locator('#playthrough_21_31').check();
+  await expect(page.locator('#armors_4_90')).toBeChecked();
+
+  // Manikin Claws drop from either Pale Shade invasion: each playthrough spot
+  // syncs the collection box via its own key, without chaining to the other
+  // invasion.
+  await page.locator('#playthrough_6_75').check();
+  await expect(page.locator('#weapons_1_119')).toBeChecked();
+  await expect(page.locator('#playthrough_15_35')).not.toBeChecked();
+  await page.locator('#playthrough_6_75').uncheck();
+  await expect(page.locator('#weapons_1_119')).not.toBeChecked();
+  await page.locator('#playthrough_15_35').check();
+  await expect(page.locator('#weapons_1_119')).toBeChecked();
+});
+
 test('defeating a boss syncs to its Achievements entry', async ({ page }) => {
   // Every Boss Achievements entry is linked to its Playthrough defeat by an
   // item key. Spot-check a few, including tricky cases.

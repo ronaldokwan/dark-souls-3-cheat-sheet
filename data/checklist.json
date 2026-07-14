@@ -440,6 +440,7 @@
       {
        "id": "playthrough_2_17",
        "cls": "f_weap",
+       "item": "mail-breaker",
        "html": "Continue along the passageway and pick up the <a href=\"https://darksouls3.wiki.fextralife.com/Mail+Breaker\">Mail Breaker</a> opposite the door on a corpse"
       },
       {
@@ -835,6 +836,7 @@
       {
        "id": "playthrough_3_44",
        "cls": "f_arm",
+       "item": "loincloth",
        "html": "Go back the sewer area and open the locked door. Climb down and walk towards <a href=\"https://darksouls3.wiki.fextralife.com/Velka+the+Goddess+of+Sin\">Velka the Goddess of Sin's statue</a> to grab a <a href=\"https://darksouls3.wiki.fextralife.com/Loincloth\">Loincloth</a>"
       },
       {
@@ -851,6 +853,7 @@
       {
        "id": "playthrough_3_47",
        "cls": "f_weap",
+       "item": "red-and-white-round-shield",
        "html": "Walk through the archway tunnel. Shoot down a hanging corpse to get a <a href=\"https://darksouls3.wiki.fextralife.com/Red+and+White+Shield\">Blessed Red and White Shield+1</a>"
       },
       {
@@ -1529,6 +1532,7 @@
       {
        "id": "playthrough_6_75",
        "cls": "f_npc f_weap f_miss",
+       "item": "manikin-claws-farron",
        "html": "Optionally, and only if you are on bad terms with Yuria (healed the Dark Sigil or attacked her) and are embered, head further into the deep swamp on the right. Dark spirit <a href=\"https://darksouls3.wiki.fextralife.com/Londor+Pale+Shade\">Londor Pale Shade</a> will invade your world among the Basilisks there. If you kill him, you will receive the <a href=\"https://darksouls3.wiki.fextralife.com/Manikin+Claws\">Manikin Claws</a>"
       },
       {
@@ -2613,6 +2617,7 @@
        "id": "playthrough_15_35",
        "cls": "f_arm f_npc f_weap f_miss",
        "item": [
+        "manikin-claws-irithyll",
         "pale-shade-robe",
         "pale-shade-gloves",
         "pale-shade-trousers"
@@ -3813,6 +3818,7 @@
       {
        "id": "playthrough_12_40",
        "cls": "f_tit f_weap",
+       "item": ["dragon-tooth", "havel's-greatshield"],
        "html": "Climb the ladder to discover <a href=\"https://darksouls3.wiki.fextralife.com/Havel+Knight\">Havel</a> standing in front of a dead dragon. Kill him for <a href=\"https://darksouls3.wiki.fextralife.com/Dragon+Tooth\">Dragon Tooth</a><span class=\"p\"> + </span><a href=\"https://darksouls3.wiki.fextralife.com/Havel's+Greatshield\">Havel's Greatshield</a>. Next to the dragon is a <a href=\"https://darksouls3.wiki.fextralife.com/Titanite+Slab\">Titanite Slab</a>"
       },
       {
@@ -5303,6 +5309,7 @@
       {
        "id": "playthrough_21_31",
        "cls": "f_arm",
+       "item": "loincloth-ringed-city",
        "html": "Go right towards the island to find the <a href=\"https://darksouls3.wiki.fextralife.com/Loincloth\">Loincloth</a>"
       },
       {
@@ -7752,6 +7759,7 @@
         {
          "id": "weapons_1_3",
          "cls": "",
+         "item": "mail-breaker",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Mail+Breaker\">Mail Breaker</a>"
         },
         {
@@ -8522,6 +8530,7 @@
         {
          "id": "weapons_1_113",
          "cls": "",
+         "item": "dragon-tooth",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Dragon+Tooth\">Dragon Tooth</a>"
         }
        ]
@@ -8815,6 +8824,7 @@
         {
          "id": "weapons_1_119",
          "cls": "",
+         "item": ["manikin-claws-farron", "manikin-claws-irithyll"],
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Manikin+Claws\">Manikin Claws</a>"
         },
         {
@@ -8945,8 +8955,7 @@
         {
          "id": "weapons_1_168",
          "cls": "f_sorc_build",
-         "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sorcerer's+Staff\">Sorcerer's Staff</a>",
-         "item": "sorcerer's-staff"
+         "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sorcerer's+Staff\">Sorcerer's Staff</a>"
         },
         {
          "id": "weapons_1_169",
@@ -9037,8 +9046,7 @@
         {
          "id": "weapons_1_179",
          "cls": "f_mirac_build",
-         "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Talisman\">Talisman</a>",
-         "item": "talisman"
+         "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Talisman\">Talisman</a>"
         },
         {
          "id": "weapons_1_182",
@@ -9174,6 +9182,7 @@
         {
          "id": "weapons_2_2",
          "cls": "",
+         "item": "red-and-white-round-shield",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Red+and+White+Shield\">Red and White Round Shield</a>"
         },
         {
@@ -9475,6 +9484,7 @@
         {
          "id": "weapons_2_55",
          "cls": "",
+         "item": "havel's-greatshield",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Havel's+Greatshield\">Havel's Greatshield</a>"
         },
         {
@@ -11548,6 +11558,7 @@
       {
        "id": "armors_4_12",
        "cls": "",
+       "item": "loincloth",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Loincloth\">Loincloth</a>"
       },
       {
@@ -11568,6 +11579,7 @@
       {
        "id": "armors_4_90",
        "cls": "",
+       "item": "loincloth-ringed-city",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Loincloth\">Loincloth</a> (Ringed City Version)"
       },
       {
