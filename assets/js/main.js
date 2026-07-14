@@ -187,9 +187,10 @@ function refreshExportText() {
  * the same `item` key(s), emitted here as the `data-item` attribute (a single
  * key, or several space-separated when one entry grants multiple items). We just
  * group ids by shared key and mirror them. `tools/validate.mjs` guarantees a key
- * never resolves to more than one entry per tab, so no runtime guardrail (for
- * stackables, Crow trades, or upgrade variants) is needed here — those are
- * simply left without an `item` key in the data.
+ * never resolves to more than one entry per tab, so no runtime guardrail is
+ * needed here — entries that would violate that (stackables, multi-source items
+ * like Crow trades for gems/rings, upgrade variants) are simply left without an
+ * `item` key in the data.
  * -------------------------------------------------------------------- */
 let linkGroups = new Map(); // id -> Set(linked ids in other tabs)
 

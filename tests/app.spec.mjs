@@ -241,9 +241,11 @@ test('Collapse/Expand All toggles every section in the active tab and persists',
   await expect(page.locator('#collapseAllToggle')).toContainText('Expand All');
 });
 
-test('Misc/Crow (Pickle Pee) trades are never linked to other tabs', async ({ page }) => {
+test('Misc/Crow (Pickle Pee) trades link only their sole-source rewards', async ({ page }) => {
   // Loretta's Bone shares a wiki URL between playthrough_3_8 (found) and
-  // crow_1_4 (crow trade), but trading is a separate acquisition — no sync.
+  // crow_1_4 (crow trade), but trading it away is a separate acquisition — no
+  // sync between the pickup and the trade, and the Ring of Sacrifice reward
+  // has other sources so the trade stays unlinked too.
   const play = page.locator('#playthrough_3_8');
   const crow = page.locator('#crow_1_4');
 
@@ -255,8 +257,17 @@ test('Misc/Crow (Pickle Pee) trades are never linked to other tabs', async ({ pa
   await crow.check();
   await expect(play).not.toBeChecked();
 
-  // Excluding Crow must not break other links that happen to share a crow URL:
-  // Eleonora still syncs playthrough_9_6 <-> weapons_1_87.
+  // Rewards whose ONLY source is the trade DO sync with their collection
+  // entry: Siegbräu -> Armor of the Sun mirrors into the armor tab.
+  const armorTrade = page.locator('#crow_1_10');
+  const armorEntry = page.locator('#armors_2_18');
+  await armorTrade.check();
+  await expect(armorEntry).toBeChecked();
+  await armorTrade.uncheck();
+  await expect(armorEntry).not.toBeChecked();
+
+  // Excluding the multi-source trades must not break other links that happen
+  // to share a crow URL: Eleonora still syncs playthrough_9_6 <-> weapons_1_87.
   await page.locator('[data-bs-target="#tabPlaythrough"]').click();
   await page.locator('#playthrough_9_6').check();
   await expect(page.locator('#weapons_1_87')).toBeChecked();

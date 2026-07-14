@@ -9373,6 +9373,7 @@
         {
          "id": "weapons_2_42",
          "cls": "",
+         "item": "sunlight-shield",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunlight+Shield\">Sunlight Shield</a>"
         },
         {
@@ -9396,6 +9397,7 @@
         {
          "id": "weapons_2_35",
          "cls": "",
+         "item": "porcine-shield",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Porcine+Shield\">Porcine Shield</a>"
         },
         {
@@ -9597,6 +9599,7 @@
       {
        "id": "armors_1_6",
        "cls": "",
+       "item": "lucatiels-mask",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Lucatiel's+Mask\">Lucatiel's Mask</a>"
       },
       {
@@ -9618,6 +9621,7 @@
       {
        "id": "armors_1_56",
        "cls": "",
+       "item": "iron-helm",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Iron+Helm\">Iron Helm</a>"
       },
       {
@@ -10152,6 +10156,7 @@
       {
        "id": "armors_2_18",
        "cls": "",
+       "item": "armor-of-the-sun",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Armor+of+the+Sun\">Armor of the Sun</a>"
       },
       {
@@ -11167,6 +11172,7 @@
       {
        "id": "armors_4_54",
        "cls": "",
+       "item": "iron-leggings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Iron+Leggings\">Iron Leggings</a>"
       },
       {
@@ -11690,6 +11696,7 @@
       {
        "id": "crow_1_7",
        "cls": "",
+       "item": "iron-helm",
        "html": "Trade <a href=\"https://darksouls3.wiki.fextralife.com/Lightning+Urn\">Lightning Urn</a> for <a href=\"https://darksouls3.wiki.fextralife.com/Iron+Helm\">Iron Helm</a>"
       },
       {
@@ -11704,17 +11711,20 @@
       {
        "id": "crow_1_9",
        "cls": "",
+       "item": "iron-leggings",
        "html": "Trade <a href=\"https://darksouls3.wiki.fextralife.com/Seed+of+a+Giant+Tree\">Seed of a Giant Tree</a> for <a href=\"https://darksouls3.wiki.fextralife.com/Iron+Leggings\">Iron Leggings</a>"
       },
       {
        "id": "crow_1_10",
        "cls": "",
+       "item": "armor-of-the-sun",
        "html": "Trade <a href=\"https://darksouls3.wiki.fextralife.com/Siegbrau\">Siegbräu</a> for <a href=\"https://darksouls3.wiki.fextralife.com/Armor+of+the+Sun\">Armor of the Sun</a>"
       },
       {
        "id": "crow_1_11",
        "cls": "",
-       "html": "Trade <a href=\"https://darksouls3.wiki.fextralife.com/Vertebra+Shackle\">Vertebra Shackle</a> for <a href=\"https://darksouls3.wiki.fextralife.com/Lucatiel+Mask\">Lucatiel Mask</a>"
+       "item": "lucatiels-mask",
+       "html": "Trade <a href=\"https://darksouls3.wiki.fextralife.com/Vertebra+Shackle\">Vertebra Shackle</a> for <a href=\"https://darksouls3.wiki.fextralife.com/Lucatiel's+Mask\">Lucatiel's Mask</a>"
       },
       {
        "id": "crow_1_12",
@@ -11734,6 +11744,7 @@
       {
        "id": "crow_1_15",
        "cls": "",
+       "item": "porcine-shield",
        "html": "Trade <a href=\"https://darksouls3.wiki.fextralife.com/Undead+Bone+Shard\">Undead Bone Shard</a> for <a href=\"https://darksouls3.wiki.fextralife.com/Porcine+Shield\">Porcine Shield</a>"
       },
       {
@@ -11754,6 +11765,7 @@
       {
        "id": "crow_1_19",
        "cls": "",
+       "item": "sunlight-shield",
        "html": "Trade <a href=\"https://darksouls3.wiki.fextralife.com/Mendicant's+Staff\">Mendicant's Staff</a> for <a href=\"https://darksouls3.wiki.fextralife.com/Sunlight+Shield\">Sunlight Shield</a>"
       },
       {
