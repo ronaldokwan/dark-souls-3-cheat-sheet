@@ -416,6 +416,13 @@ test('unique-passive info button opens the passive modal without touching the ch
   await page.locator('#passiveModal .btn-outline-secondary').click();
   await expect(page.locator('#passiveModal')).toBeHidden();
 
+  // Catalyst spell properties count as passives too (Izalith Staff).
+  await page.locator('li[data-id="weapons_1_172"] .passive-info').click();
+  await expect(page.locator('#passiveModalItem')).toContainText('Izalith Staff');
+  await expect(page.locator('#passiveModalText')).toContainText('dark sorceries');
+  await page.locator('#passiveModal .btn-outline-secondary').click();
+  await expect(page.locator('#passiveModal')).toBeHidden();
+
   // Ordinary equipment without a passive gets no button.
   await expect(page.locator('li[data-id="weapons_2_2"] .passive-info')).toHaveCount(0);
 

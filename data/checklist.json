@@ -7868,6 +7868,7 @@
         },
         {
          "id": "weapons_1_20",
+         "passive": "Can cast sorceries in addition to functioning as a sword.",
          "cls": "f_sorc_build",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Cleric's+Candlestick\">Cleric's Candlestick</a>"
         },
@@ -8153,6 +8154,7 @@
         },
         {
          "id": "weapons_1_209",
+         "passive": "Functions as a pyromancy flame in addition to being a curved sword.",
          "cls": "f_pyro_build",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Demon's+Scar\">Demon's Scar</a>"
         },
@@ -8448,6 +8450,7 @@
         },
         {
          "id": "weapons_1_100",
+         "passive": "Can cast sorceries in addition to functioning as a pick.",
          "cls": "f_sorc_build",
          "item": [
           "heysel-pick-a",
@@ -8616,6 +8619,7 @@
         },
         {
          "id": "weapons_1_134",
+         "passive": "Can cast miracles in addition to functioning as a spear.",
          "cls": "f_mirac_build",
          "item": "golden-ritual-spear",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Golden+Ritual+Spear\">Golden Ritual Spear</a>"
@@ -8734,6 +8738,7 @@
         },
         {
          "id": "weapons_1_146",
+         "passive": "Can cast sorceries in addition to functioning as a halberd.",
          "cls": "f_sorc_build",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Immolation+Tinder\">Immolation Tinder</a>"
         },
@@ -8801,6 +8806,7 @@
         },
         {
          "id": "weapons_1_202",
+         "passive": "Can cast miracles in addition to functioning as a whip.",
          "cls": "f_mirac_build",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Rose+of+Ariandel\">Rose of Ariandel</a>"
         }
@@ -8988,6 +8994,7 @@
         },
         {
          "id": "weapons_1_170",
+         "passive": "Casting speed buff: spells cast faster while it is held, even in the off-hand.",
          "cls": "f_sorc_build",
          "item": "witchtree-branch",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Witchtree+Branch\">Witchtree Branch</a>"
@@ -9005,12 +9012,14 @@
         },
         {
          "id": "weapons_1_206",
+         "passive": "Dark sorceries cast with it scale with both Intelligence and Faith.",
          "cls": "f_sorc_build",
          "item": "murky-longstaff",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Murky+Longstaff\">Murky Longstaff</a>"
         },
         {
          "id": "weapons_1_172",
+         "passive": "Boosts dark sorceries: they scale with both Intelligence and Faith when cast with this staff.",
          "cls": "f_sorc_build",
          "item": "izalith-staff",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Izalith+Staff\">Izalith Staff</a>"
@@ -9052,6 +9061,7 @@
         },
         {
          "id": "weapons_1_201",
+         "passive": "Casting pyromancies leaves a short trail of flame that damages nearby foes.",
          "cls": "f_pyro_build",
          "item": "pyromancer's-parting-flame",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Pyromancer's+Parting+Flame\">Pyromancer's Parting Flame</a>"
@@ -9086,12 +9096,14 @@
         },
         {
          "id": "weapons_1_184",
+         "passive": "Dark miracles cast with it scale with both Intelligence and Faith.",
          "cls": "f_mirac_build",
          "item": "sunless-talisman",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Sunless+Talisman\">Sunless Talisman</a>"
         },
         {
          "id": "weapons_1_183",
+         "passive": "Can cast both pyromancies and miracles.",
          "cls": "f_pyro_build f_mirac_build",
          "item": "white-hair-talisman",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/White+Hair+Talisman\">White Hair Talisman</a>"
@@ -9114,7 +9126,7 @@
         },
         {
          "id": "weapons_1_189",
-         "passive": "Casts miracles faster than any other catalyst.",
+         "passive": "Casting speed buff: miracles cast significantly faster.",
          "cls": "f_mirac_build",
          "item": "saint-tree-bellvine",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Saint-tree+Bellvine\">Saint-tree Bellvine</a>"
@@ -9126,12 +9138,14 @@
         },
         {
          "id": "weapons_1_188",
+         "passive": "Boosts dark miracles: they scale with both Intelligence and Faith when cast with this chime.",
          "cls": "f_mirac_build",
          "item": "caitha's-chime",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Caitha's+Chime\">Caitha's Chime</a>"
         },
         {
          "id": "weapons_1_187",
+         "passive": "Can cast both sorceries and miracles.",
          "cls": "f_sorc_build f_mirac_build",
          "item": "crystal-chime",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Crystal+Chime\">Crystal Chime</a>"
@@ -9163,6 +9177,7 @@
         },
         {
          "id": "weapons_2_60",
+         "passive": "Can cast pyromancies in addition to functioning as a torch.",
          "cls": "f_pyro_build",
          "item": "follower-torch",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Follower+Torch\">Follower Torch</a>"
