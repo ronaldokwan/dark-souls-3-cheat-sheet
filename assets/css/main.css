@@ -141,6 +141,34 @@ ul li ul {
   padding-top: 0;
 }
 
+/* Collection tabs (Weapons/Shields, Armor, Misc): on wide screens the long
+ * item lists flow into multiple columns instead of one narrow strip down the
+ * left. Entries fill a column top-to-bottom, then continue in the next column
+ * to the right. The Playthrough walkthrough keeps its single column (steps are
+ * ordered prose). */
+@media (min-width: 768px) {
+  #tabWeaponsShields div[id$='_col'],
+  #tabArmors ul[id$='_col'],
+  #tabMisc ul[id$='_col'] {
+    column-width: 20em;
+    column-gap: 2.5rem;
+  }
+  #tabArmors ul[id$='_col'] li,
+  #tabMisc ul[id$='_col'] li {
+    break-inside: avoid;
+  }
+  /* Each weapon/shield category (heading + its full list) stays in one
+   * column: the heading always sits at the top of its list and a list never
+   * splits mid-category across two columns. */
+  #tabWeaponsShields div[id$='_col'] .item-group {
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+  }
+  #tabWeaponsShields div[id$='_col'] .item-group ul {
+    margin-bottom: 0;
+  }
+}
+
 /* Zone table-of-contents: a grid of small cards instead of a plain link
  * list, with a hover lift so jumping between zones feels less static. */
 .table_of_contents {
@@ -186,6 +214,45 @@ ul li ul {
 }
 .table_of_contents a:hover {
   color: var(--accent);
+}
+
+/* Soul Types (Misc tab): a responsive grid of name/value cards (ordered by
+ * soul value) instead of the old page-long two-column table, so it fills
+ * wide screens the same way the collection tabs do. */
+.soul_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+.soul_grid li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  background: var(--bs-tertiary-bg);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95em;
+}
+.soul_grid a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--bs-body-color);
+}
+.soul_grid a:hover {
+  color: var(--accent);
+}
+.soul_value {
+  color: var(--bs-secondary-color);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.soul_value::after {
+  content: ' souls';
+  font-size: 0.85em;
 }
 
 /* Filter panel: a native <details> disclosure so the (fairly large) category

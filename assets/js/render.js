@@ -96,8 +96,16 @@ function sectionHtml(section) {
       section.groups
         .map((g) => {
           const attrs = g.attrs ? ' ' + g.attrs : '';
+          // The wrapper keeps a category's heading and list as one unit so the
+          // multi-column layout can't split a category across columns.
           return (
-            '<h4' + attrs + '>' + g.h4 + '</h4><ul>' + g.items.map(itemHtml).join('') + '</ul>'
+            '<div class="item-group"><h4' +
+            attrs +
+            '>' +
+            g.h4 +
+            '</h4><ul>' +
+            g.items.map(itemHtml).join('') +
+            '</ul></div>'
           );
         })
         .join('') +

@@ -149,15 +149,11 @@ function calculateTotals() {
 
       // Sub-heading (h4) visibility: hide fully-completed groups.
       if (container && container.tagName === 'DIV') {
-        $all(':scope > h4', container).forEach((h) => {
-          h.classList.add('completed');
-        });
-        $all(':scope > ul', container).forEach((ul) => {
-          if (ul.querySelector('li > div > label:not(.completed)')) {
-            let prev = ul.previousElementSibling;
-            while (prev && prev.tagName !== 'H4') prev = prev.previousElementSibling;
-            if (prev) prev.classList.remove('completed');
-          }
+        $all('.item-group', container).forEach((group) => {
+          const h = group.querySelector('h4');
+          if (!h) return;
+          const allDone = !group.querySelector('li > div > label:not(.completed)');
+          h.classList.toggle('completed', allDone);
         });
       }
     });
