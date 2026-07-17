@@ -447,14 +447,14 @@ function updateBuildHighlights() {
 }
 
 // Passive modal counterpart of updateBuildHighlights: tint the description
-// when the passive matters to an active build - either the entry carries that
-// build's tag, or the text itself names the school - and mark the matched
-// school names in their own build colour.
-function renderPassiveModalText(li, text) {
+// only when the text itself names an active school, and mark the matched
+// school names in their own build colour. The entry's build tag alone doesn't
+// qualify: a catalyst can carry a build-agnostic passive (Mendicant's Staff's
+// souls bonus, Crystal Sage's Rapier's item discovery), and the list row
+// already carries the tag tint.
+function renderPassiveModalText(text) {
   const el = document.getElementById('passiveModalText');
-  const matches = activeBuilds().filter(
-    (cls) => li.classList.contains(cls) || new RegExp(BUILD_TERMS[cls], 'i').test(text)
-  );
+  const matches = activeBuilds().filter((cls) => new RegExp(BUILD_TERMS[cls], 'i').test(text));
   el.classList.toggle('build-highlight', matches.length > 0);
   el.textContent = text;
   if (matches.length === 0) {
@@ -973,7 +973,7 @@ function wireChecklistDelegation() {
     const li = btn.closest('li');
     const content = li.querySelector('.item_content');
     document.getElementById('passiveModalItem').innerHTML = content ? content.innerHTML : '';
-    renderPassiveModalText(li, btn.getAttribute('data-passive'));
+    renderPassiveModalText(btn.getAttribute('data-passive'));
     modal('passiveModal').show();
   });
 }

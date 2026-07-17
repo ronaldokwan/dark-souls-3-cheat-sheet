@@ -501,6 +501,16 @@ test('build toggles tint the passive modal text, including cross-school buffs', 
   await page.locator('#passiveModal .btn-outline-secondary').click();
   await expect(page.locator('#passiveModal')).toBeHidden();
 
+  // Same for a build-agnostic passive on a sorc-tagged catalyst: Mendicant's
+  // Staff's souls bonus is not a sorcery effect, so the entry's f_sorc_build
+  // tag alone must not tint the description (the list row keeps its tint).
+  await expect(page.locator('li[data-id="weapons_1_176"]')).toHaveClass(/build-highlight/);
+  await page.locator('li[data-id="weapons_1_176"] .passive-info').click();
+  await expect(page.locator('#passiveModalText')).not.toHaveClass(/build-highlight/);
+  await expect(page.locator('#passiveModalText .build-term')).toHaveCount(0);
+  await page.locator('#passiveModal .btn-outline-secondary').click();
+  await expect(page.locator('#passiveModal')).toBeHidden();
+
   // With every build toggled off again, nothing in the modal is tinted.
   await page.locator('label[for="highlight_sorc"]').click();
   await page.locator('li[data-id="weapons_1_189"] .passive-info').click();
