@@ -3561,7 +3561,7 @@
       },
       {
        "id": "playthrough_11_15",
-       "cls": "f_miss f_mirac_build",
+       "cls": "f_miss f_pyro_build f_mirac_build",
        "item": [
         "priestess-ring",
         "wolf-knight-helm",
@@ -4331,7 +4331,7 @@
       },
       {
        "id": "playthrough_18_26",
-       "cls": "f_ring f_sorc_build",
+       "cls": "f_ring f_sorc_build f_pyro_build",
        "item": "scholar-ring",
        "html": "Before crossing the bridge, pull the lever to the right to open a passage containing the <a href=\"https://darksouls3.wiki.fextralife.com/Scholar+Ring\">Scholar Ring</a>"
       },
@@ -5775,7 +5775,7 @@
       {
        "id": "playthrough_22_67",
        "cls": "f_arm",
-       "item": "antiquated-plain-garb",
+       "item": ["antiquated-plain-garb", "violet-wrappings"],
        "html": "Take the ladder down to find the <a href=\"https://darksouls3.wiki.fextralife.com/Antiquated+Plain+Set\">Antiquated Plain Set</a>"
       },
       {
@@ -6798,13 +6798,13 @@
         },
         {
          "id": "checklist_5_21",
-         "cls": "f_sorc_build",
+         "cls": "f_sorc_build f_pyro_build",
          "item": "scholar-ring",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Scholar+Ring\">Scholar Ring</a>: You can pull a lever next to the bridge in the center of the Grand Archives to lower an adjacent bookshelf revealing a corpse with the ring"
         },
         {
          "id": "checklist_5_22",
-         "cls": "f_mirac_build",
+         "cls": "f_pyro_build f_mirac_build",
          "item": "priestess-ring",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Priestess+Ring\">Priestess Ring</a>: Sold by the Handmaid in Dark Firelink"
         },
@@ -6822,7 +6822,7 @@
         },
         {
          "id": "checklist_5_25",
-         "cls": "f_mirac_build",
+         "cls": "f_sorc_build f_pyro_build f_mirac_build",
          "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Saint%27s+Ring\">Saint's Ring</a>: Sold by Irina of Carim in Firelink"
         },
         {
@@ -11034,6 +11034,7 @@
       {
        "id": "armors_3_85",
        "cls": "",
+       "item": "violet-wrappings",
        "html": "<a href=\"https://darksouls3.wiki.fextralife.com/Violet+Wrappings\">Violet Wrappings</a>"
       },
       {
